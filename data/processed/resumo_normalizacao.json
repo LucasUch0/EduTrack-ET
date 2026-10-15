@@ -1,0 +1,129 @@
+{
+ "limiar_fuzzy": 0.87,
+ "habilidades_na_ontologia": 76,
+ "categorias": 9,
+ "sinonimos": 1169,
+ "decisoes": {
+  "exata": 1587,
+  "nao_resolvido": 1868,
+  "fuzzy": 8
+ },
+ "vagas_brutas": 91,
+ "vagas_aceitas": 67,
+ "vagas_descartadas": {
+  "não-TI": 20,
+  "duplicada (título, empresa)": 4
+ },
+ "vagas_por_perfil": {
+  "corporativo": 6,
+  "desenvolvimento": 24,
+  "infraestrutura": 24,
+  "industria": 7,
+  "dados_ia": 6
+ },
+ "arestas_ensina": 64,
+ "arestas_exige": 517,
+ "habilidades_ensinadas": 37,
+ "habilidades_demandadas": 70,
+ "cobertura_RNF18_vagas": {
+  "freq_minima": 2,
+  "termos_elegiveis": 75,
+  "termos_resolvidos": 64,
+  "cobertura": 0.8533,
+  "nao_resolvidos_elegiveis": [
+   "am",
+   "clt",
+   "ej",
+   "hvac",
+   "ids",
+   "ips",
+   "lgbti+",
+   "plr",
+   "ppr",
+   "sidiers",
+   "ti"
+  ]
+ },
+ "quarentena_top20": [
+  [
+   "formacao academica",
+   22
+  ],
+  [
+   "salario",
+   14
+  ],
+  [
+   "cargo",
+   14
+  ],
+  [
+   "requisitos",
+   13
+  ],
+  [
+   "nao informado",
+   11
+  ],
+  [
+   "empresa",
+   11
+  ],
+  [
+   "ramo",
+   11
+  ],
+  [
+   "ej",
+   11
+  ],
+  [
+   "desejavel",
+   10
+  ],
+  [
+   "desejaveis",
+   10
+  ],
+  [
+   "a combinar",
+   10
+  ],
+  [
+   "am",
+   10
+  ],
+  [
+   "principais atividades",
+   9
+  ],
+  [
+   "diferencial",
+   9
+  ],
+  [
+   "local de trabalho",
+   9
+  ],
+  [
+   "manaus",
+   9
+  ],
+  [
+   "efetivo clt",
+   9
+  ],
+  [
+   "jornada",
+   9
+  ],
+  [
+   "periodo integral",
+   9
+  ],
+  [
+   "area e especializacao profissional",
+   9
+  ]
+ ]
+}

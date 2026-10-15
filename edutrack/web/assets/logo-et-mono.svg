@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 12 44 40" width="44" height="40" role="img" aria-labelledby="et-mono-title">
+  <title id="et-mono-title">EduTrack</title>
+  <!--
+    Versão de uma cor só, sem fundo: herda currentColor quando embutida em HTML.
+    Usar em impressão em preto e branco, marca d'água e fundos coloridos.
+  -->
+  <g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15 17H49"/>
+    <path d="M15 17V47"/>
+    <path d="M15 32H29"/>
+    <path d="M15 47H29"/>
+    <path d="M40 17V47"/>
+  </g>
+</svg>

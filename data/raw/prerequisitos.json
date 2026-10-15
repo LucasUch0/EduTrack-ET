@@ -1,0 +1,21 @@
+{
+  "descricao": "Arestas Disciplina -> pre_requisito -> Disciplina (RF18). O Programa de Disciplina não informa pré-requisitos; estas relações foram inferidas pelos autores por dependência de conteúdo, sempre de um período anterior para um posterior, e devem ser validadas com a coordenação do curso.",
+  "fonte": "curadoria dos autores (08/10/2026)",
+  "arestas": [
+    {"disciplina": "aed2", "requer": "aed1"},
+    {"disciplina": "programacao_oo", "requer": "programacao_estruturada"},
+    {"disciplina": "sistemas_operacionais", "requer": "arquitetura_computadores"},
+    {"disciplina": "redes", "requer": "sistemas_operacionais"},
+    {"disciplina": "manipulacao_bd", "requer": "modelagem_bd"},
+    {"disciplina": "modelagem_sistemas", "requer": "requisitos_projetos"},
+    {"disciplina": "modelagem_sistemas", "requer": "programacao_oo"},
+    {"disciplina": "gerenciamento_projetos", "requer": "engenharia_software"},
+    {"disciplina": "compiladores", "requer": "aed2"},
+    {"disciplina": "compiladores", "requer": "logica_matematica_discreta"},
+    {"disciplina": "desenvolvimento_sistemas_2", "requer": "manipulacao_bd"},
+    {"disciplina": "desenvolvimento_sistemas_2", "requer": "modelagem_sistemas"},
+    {"disciplina": "inteligencia_artificial", "requer": "probabilidade_estatistica"},
+    {"disciplina": "inteligencia_artificial", "requer": "aed2"},
+    {"disciplina": "tcc", "requer": "metodologia_cientifica"}
+  ]
+}

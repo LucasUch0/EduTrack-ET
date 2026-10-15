@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="et-mark-title">
+  <title id="et-mark-title">EduTrack</title>
+  <defs>
+    <linearGradient id="et-tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d6d93"/>
+      <stop offset="1" stop-color="#0e3c56"/>
+    </linearGradient>
+    <linearGradient id="et-gloss" x1="0" y1="0" x2=".35" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".24"/>
+      <stop offset=".6" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="16" fill="url(#et-tile)"/>
+  <rect width="64" height="64" rx="16" fill="url(#et-gloss)"/>
+
+  <!-- Ligadura ET: a barra superior é compartilhada pelo E e pelo T (a "trilha"). -->
+  <g fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15 17H49"/>
+    <path d="M15 17V47"/>
+    <path d="M15 32H29"/>
+    <path d="M15 47H29"/>
+    <path d="M40 17V47"/>
+  </g>
+</svg>

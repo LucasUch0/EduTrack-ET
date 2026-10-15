@@ -1,0 +1,11 @@
+# Dependências para refazer o pipeline (coleta, extração, normalização, treino e avaliação),
+# rodar os testes e gerar as figuras e o artigo. Versões testadas em Python 3.13.
+# Instalação: python -m pip install -r requirements-pipeline.txt
+-r requirements.txt
+scipy==1.18.1
+scikit-learn==1.9.1
+pdfplumber==0.11.10
+requests==2.34.2
+beautifulsoup4==4.15.0
+matplotlib==3.11.2
+python-docx==1.2.0

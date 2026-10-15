@@ -1,0 +1,484 @@
+{
+ "por_vista": {
+  "dark/inicio": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Início",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "dark/perfil": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Meu perfil",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "dark/diagnostico": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Diagnóstico",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "dark/mercado": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Mercado",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "dark/conexoes": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [
+    {
+     "texto": "‹",
+     "ratio": 2.3,
+     "minimo": 4.5,
+     "desativado": true,
+     "incerto": false,
+     "seletor": "button"
+    },
+    {
+     "texto": "‹",
+     "ratio": 2.3,
+     "minimo": 4.5,
+     "desativado": true,
+     "incerto": false,
+     "seletor": "button"
+    },
+    {
+     "texto": "‹",
+     "ratio": 2.3,
+     "minimo": 4.5,
+     "desativado": true,
+     "incerto": false,
+     "seletor": "button"
+    }
+   ],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Conexões",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "dark/trilha": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Minha trilha",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "dark/coordenacao": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Coordenação",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "dark/sobre": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Sobre",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "dark/dialogo_termo": {
+   "sem_nome": [],
+   "contraste": [
+    {
+     "texto": "‹",
+     "ratio": 2.3,
+     "minimo": 4.5,
+     "desativado": true,
+     "incerto": false,
+     "seletor": "button"
+    },
+    {
+     "texto": "‹",
+     "ratio": 2.3,
+     "minimo": 4.5,
+     "desativado": true,
+     "incerto": false,
+     "seletor": "button"
+    },
+    {
+     "texto": "‹",
+     "ratio": 2.3,
+     "minimo": 4.5,
+     "desativado": true,
+     "incerto": false,
+     "seletor": "button"
+    }
+   ],
+   "rotulo_fora_do_nome": []
+  },
+  "light/inicio": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Início",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "light/perfil": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Meu perfil",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "light/diagnostico": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Diagnóstico",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "light/mercado": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Mercado",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "light/conexoes": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [
+    {
+     "texto": "‹",
+     "ratio": 1.78,
+     "minimo": 4.5,
+     "desativado": true,
+     "incerto": false,
+     "seletor": "button"
+    },
+    {
+     "texto": "‹",
+     "ratio": 1.78,
+     "minimo": 4.5,
+     "desativado": true,
+     "incerto": false,
+     "seletor": "button"
+    },
+    {
+     "texto": "‹",
+     "ratio": 1.78,
+     "minimo": 4.5,
+     "desativado": true,
+     "incerto": false,
+     "seletor": "button"
+    }
+   ],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Conexões",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "light/trilha": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Minha trilha",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "light/coordenacao": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Coordenação",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "light/sobre": {
+   "sem_nome": [],
+   "rotulo_fora_do_nome": [],
+   "contraste": [],
+   "estrutura": {
+    "lang": "pt-BR",
+    "titulo": "EduTrack · Sobre",
+    "ids_duplicados": [],
+    "img_sem_alt": 0,
+    "tabindex_positivo": 0,
+    "h1_visiveis": 1,
+    "saltos_de_titulo": 0,
+    "focaveis_ocultos": 0
+   }
+  },
+  "light/dialogo_termo": {
+   "sem_nome": [],
+   "contraste": [
+    {
+     "texto": "‹",
+     "ratio": 1.78,
+     "minimo": 4.5,
+     "desativado": true,
+     "incerto": false,
+     "seletor": "button"
+    },
+    {
+     "texto": "‹",
+     "ratio": 1.78,
+     "minimo": 4.5,
+     "desativado": true,
+     "incerto": false,
+     "seletor": "button"
+    },
+    {
+     "texto": "‹",
+     "ratio": 1.78,
+     "minimo": 4.5,
+     "desativado": true,
+     "incerto": false,
+     "seletor": "button"
+    }
+   ],
+   "rotulo_fora_do_nome": []
+  }
+ },
+ "teclado": {
+  "primeiro_foco": {
+   "tag": "a",
+   "id": "",
+   "texto": "Pular para o conteúdo",
+   "visivel": true,
+   "foco_visivel": true,
+   "dialogo": false
+  },
+  "pular_para_conteudo": true,
+  "ordem_inicio": [
+   "Montar meu perfil",
+   "Próxima · Meu perfil",
+   "Pular para o conteúdo",
+   "Menu",
+   "Início",
+   "Meu perfil",
+   "Coordenação",
+   "Sobre",
+   "Dados reais, coleta 08/10/2026: sobre os dados e o",
+   "Alternar tema claro e escuro",
+   "Reduzir animações",
+   "Sobre os dados",
+   "Montar meu perfil",
+   "Próxima · Meu perfil",
+   "Pular para o conteúdo",
+   "Menu",
+   "Início",
+   "Meu perfil",
+   "Coordenação",
+   "Sobre",
+   "Dados reais, coleta 08/10/2026: sobre os dados e o",
+   "Alternar tema claro e escuro",
+   "Reduzir animações",
+   "Sobre os dados",
+   "Montar meu perfil",
+   "Próxima · Meu perfil",
+   "Pular para o conteúdo",
+   "Menu",
+   "Início",
+   "Meu perfil",
+   "Coordenação",
+   "Sobre",
+   "Dados reais, coleta 08/10/2026: sobre os dados e o",
+   "Alternar tema claro e escuro",
+   "Reduzir animações",
+   "Sobre os dados",
+   "Montar meu perfil",
+   "Próxima · Meu perfil",
+   "Pular para o conteúdo",
+   "Menu"
+  ],
+  "focos_sem_indicador": [],
+  "passos_tab": {
+   "montar_perfil": 6,
+   "primeira_disciplina": 1,
+   "analisar": 23,
+   "aba_trilha": 16,
+   "gerar": 10
+  },
+  "disciplinas_marcadas_com_espaco": 9,
+  "trilha_gerada_so_com_teclado": true,
+  "itens_na_trilha": 5
+ },
+ "dialogo": {
+  "foco_sempre_dentro": true,
+  "esc_fecha": true,
+  "foco_volta_para": "normBtn"
+ },
+ "reflow": {
+  "inicio": 320,
+  "perfil": 320,
+  "diagnostico": 320,
+  "mercado": 320,
+  "conexoes": 320,
+  "trilha": 320,
+  "coordenacao": 320,
+  "sobre": 320
+ },
+ "espacamento": {
+  "inicio": [],
+  "perfil": [],
+  "diagnostico": [],
+  "mercado": [],
+  "conexoes": [],
+  "trilha": [],
+  "coordenacao": [],
+  "sobre": []
+ },
+ "zoom200": {
+  "inicio": 683,
+  "perfil": 683,
+  "diagnostico": 683,
+  "mercado": 683,
+  "conexoes": 683,
+  "trilha": 683,
+  "coordenacao": 683,
+  "sobre": 683
+ },
+ "graficos": {
+  "circulos": 11,
+  "losangos": 8,
+  "arestas": 8,
+  "tracejadas": 3,
+  "tracejado_css": "5px, 4px",
+  "nos_com_nome": true,
+  "nos_focaveis": true,
+  "linhas_tabela": 13,
+  "tabela_tem_cabecalho": 4,
+  "prioridade_em_texto": true
+ },
+ "privacidade": {
+  "na_aba": {
+   "session": [
+    "edutrack-gnn-progresso"
+   ],
+   "local": [
+    "edutrack-gnn-movimento",
+    "edutrack-gnn-tema"
+   ],
+   "cookies": ""
+  },
+  "nova_sessao_marcadas": 0,
+  "nova_sessao_session_storage": []
+ },
+ "movimento": {
+  "duracao_transicao_com_reduce": "1e-06s"
+ },
+ "externos": [],
+ "erros_js": []
+}

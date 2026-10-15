@@ -1,0 +1,21 @@
+{
+ "metodologia": "Green Algorithms (Lannelongue et al., 2021); fator médio do SIN (MCTI)",
+ "etapas": [
+  {
+   "etapa": "avaliacao_experimental",
+   "duracao_s": 153.9654,
+   "cpu_s": 163.7408,
+   "nucleos_logicos": 2,
+   "uso_medio_cpu": 0.5317,
+   "energia_kwh": 0.000698184663544138,
+   "co2_g": 0.026880109546449312,
+   "potencia_nucleo_w": 15.0,
+   "fator_kgco2_kwh": 0.0385,
+   "plataforma": "Linux x86_64"
+  }
+ ],
+ "total_energia_kwh": 0.000698184663544138,
+ "total_energia_wh": 0.698184663544138,
+ "total_co2_g": 0.026880109546449312,
+ "total_duracao_s": 153.9654
+}

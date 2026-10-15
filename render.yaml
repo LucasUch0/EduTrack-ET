@@ -1,0 +1,14 @@
+# Hospedagem no Render (plano gratuito): New -> Blueprint -> escolher este repositório.
+# Usa só as dependências da aplicação; o grafo e o modelo já treinados vêm em artifacts/.
+services:
+  - type: web
+    name: edutrack-gnn
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn edutrack.api.main:app --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips="*"
+    healthCheckPath: /api/saude
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.10

@@ -1,0 +1,10 @@
+# Dependências para USAR a aplicação (serviço FastAPI + página principal).
+# Versões exatas testadas em Python 3.13 (RNF23, RNF29). O iniciar.bat / iniciar.sh instalam tudo sozinhos.
+# Instalação manual: python -m pip install -r requirements.txt
+# Para refazer o pipeline, rodar os testes ou gerar o artigo: requirements-pipeline.txt
+fastapi==0.143.0
+starlette==1.6.0
+pydantic==2.13.5
+uvicorn==0.53.0
+numpy==2.5.3
+PyYAML==6.0.3

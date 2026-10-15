@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 72" width="236" height="72" role="img" aria-labelledby="et-lockup-title">
+  <title id="et-lockup-title">EduTrack — trilhas formativas</title>
+  <defs>
+    <linearGradient id="et-lockup-tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d6d93"/>
+      <stop offset="1" stop-color="#0e3c56"/>
+    </linearGradient>
+    <linearGradient id="et-lockup-gloss" x1="0" y1="0" x2=".35" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".24"/>
+      <stop offset=".6" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(8 8) scale(0.875)">
+    <rect width="64" height="64" rx="16" fill="url(#et-lockup-tile)"/>
+    <rect width="64" height="64" rx="16" fill="url(#et-lockup-gloss)"/>
+    <g fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 17H49"/>
+      <path d="M15 17V47"/>
+      <path d="M15 32H29"/>
+      <path d="M15 47H29"/>
+      <path d="M40 17V47"/>
+    </g>
+  </g>
+
+  <g font-family="Inter, 'Segoe UI', system-ui, sans-serif">
+    <text x="80" y="38" font-size="25" font-weight="700" letter-spacing="-0.6" fill="#121829">EduTrack</text>
+    <text x="80" y="55" font-size="9.5" font-weight="600" letter-spacing="1.3" fill="#545d78">TRILHAS FORMATIVAS</text>
+  </g>
+</svg>

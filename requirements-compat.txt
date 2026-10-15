@@ -1,0 +1,7 @@
+# Faixas compatíveis para usar a aplicação em Python 3.10 a 3.14, quando as versões exatas
+# do requirements.txt não instalam na sua versão do Python. O iniciar.py tenta esta lista sozinho.
+fastapi>=0.110,<1
+uvicorn>=0.29
+pydantic>=2.6,<3
+numpy>=1.26
+PyYAML>=6.0

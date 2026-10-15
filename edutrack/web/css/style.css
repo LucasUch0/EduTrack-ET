@@ -1,0 +1,226 @@
+/* =========================================================
+   EduTrack — base: tokens, reset, topo, menu, abas e hero
+   Componentes reutilizáveis ficam em components.css
+   ========================================================= */
+
+/* ---------- Tokens (escuro é o padrão) ---------- */
+:root{
+  --f-ui:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --f-mono:'JetBrains Mono','SFMono-Regular',Consolas,monospace;
+
+  --bg:#080b11;
+  --panel:#0e1724;
+  --panel-2:#121f31;
+  --panel-3:#16273c;
+  --line:#1d2c42;
+  --line-soft:#172438;
+
+  --ink:#eaf0f8;
+  --ink-2:#b3c2d6;
+  --ink-3:#7f90a8;
+
+  --sky:#a9cbec;
+  --sky-deep:#5e9ad4;
+  --on-sky:#08101c;
+  --amber:#d9a441;
+  --amber-bg:#2a2010;
+  --mint:#5fd3a2;
+  --mint-bg:#0e2a21;
+  --on-mint:#06150f;
+  --rose:#f0837c;
+  --rose-bg:#2c1413;
+  --slate-bg:#16202f;
+
+  --node-a:#5e9ad4;
+  --node-m:#3fc8cf;
+
+  --r-sm:8px; --r-md:14px; --r-lg:20px; --r-pill:999px;
+  --nav-h:72px;
+  --dur:.2s;
+  --ease:cubic-bezier(.4,0,.2,1);
+  --shadow:0 18px 44px -20px rgba(0,0,0,.9);
+}
+html[data-theme="light"]{
+  --bg:#f3f6fa;
+  --panel:#ffffff;
+  --panel-2:#ffffff;
+  --panel-3:#eef3f9;
+  --line:#d6dfeb;
+  --line-soft:#e4ebf3;
+  --ink:#0d1725;
+  --ink-2:#41526a;
+  /* #6d7f96 dava 4,1:1 sobre branco; este passa de 4,5:1 em todas as superfícies claras (RNF12) */
+  --ink-3:#5b6b80;
+  --sky:#1f5c96;
+  --sky-deep:#1f5c96;
+  /* texto escuro sobre este azul ficava em 2,7:1 */
+  --on-sky:#ffffff;
+  --amber:#8a5f10;
+  --amber-bg:#fbf1da;
+  --mint:#12704a;
+  --mint-bg:#e0f3e9;
+  --on-mint:#ffffff;
+  --rose:#9f2b23;
+  --rose-bg:#fbe6e4;
+  --slate-bg:#eaeff6;
+  --node-a:#1f5c96;
+  --node-m:#0d7f87;
+  --shadow:0 14px 34px -20px rgba(13,23,37,.35);
+}
+
+/* ---------- Reset e acessibilidade transversal ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-ui);
+  font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased;
+  transition:background var(--dur) var(--ease),color var(--dur) var(--ease);
+}
+h1,h2,h3,h4,p,ul,figure{margin:0}
+ul{padding:0;list-style:none}
+button{font-family:inherit;color:inherit}
+:focus{outline:none}
+:focus-visible{outline:2.5px solid var(--sky-deep);outline-offset:3px;border-radius:6px}
+svg.i{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.skip{position:absolute;left:16px;top:-52px;background:var(--sky);color:var(--on-sky);padding:11px 18px;border-radius:var(--r-sm);font-weight:600;z-index:999;transition:top var(--dur) var(--ease)}
+.skip:focus{top:14px}
+[hidden]{display:none!important}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.001ms!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+}
+html[data-motion-reduced] *{animation-duration:.001ms!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+
+/* ---------- Topo ---------- */
+.topbar{
+  height:var(--nav-h);display:flex;align-items:center;gap:10px;padding:0 26px;
+  background:var(--bg);position:sticky;top:0;z-index:60;border-bottom:1px solid var(--line-soft);
+}
+.brand{display:flex;align-items:center;gap:11px;font-weight:700;font-size:1.08rem;letter-spacing:-.01em;margin-right:18px;background:none;border:none;padding:4px;cursor:pointer;color:var(--ink)}
+/* no celular só o monograma aparece; o nome segue para leitores de tela */
+@media (max-width:520px){.brand .bt{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}}
+.brand .mk{
+  width:34px;height:34px;border-radius:10px;background:var(--panel-3);border:1px solid var(--line);
+  display:flex;align-items:center;justify-content:center;font-family:var(--f-mono);font-weight:600;
+  font-size:.8125rem;color:var(--sky);
+}
+.navlinks{display:flex;align-items:center;gap:2px}
+.navlink{
+  height:38px;padding:0 15px;border-radius:var(--r-pill);background:transparent;border:none;
+  font-size:.9rem;font-weight:500;color:var(--ink-2);cursor:pointer;transition:background var(--dur) var(--ease),color var(--dur) var(--ease);
+}
+.navlink:hover:not(:disabled){background:var(--panel-2);color:var(--ink)}
+.navlink[aria-current="page"]{background:var(--panel-3);color:var(--ink);font-weight:600}
+.navlink:disabled{color:var(--ink-3);opacity:.5;cursor:not-allowed}
+.top-right{display:flex;align-items:center;gap:9px;margin-left:auto}
+.round-btn{
+  width:40px;height:40px;border-radius:50%;background:var(--panel-2);border:1px solid var(--line);
+  display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--ink-2);
+}
+.round-btn:hover{background:var(--panel-3);color:var(--ink)}
+.round-btn[aria-pressed="true"]{background:var(--panel-3);color:var(--sky);border-color:var(--sky-deep)}
+
+/* ---------- Faixas de aviso ---------- */
+.proto-warn{padding:16px 30px;background:var(--amber-bg);color:var(--amber);border-bottom:1px solid var(--line-soft);font-size:.875rem}
+.proto-warn code{font-family:var(--f-mono);font-size:.8125rem}
+
+/* ---------- Menu em painel ---------- */
+.sheet{
+  position:fixed;inset:var(--nav-h) 0 auto 0;background:var(--panel);border-bottom:1px solid var(--line);
+  z-index:55;padding:26px 30px 30px;box-shadow:var(--shadow);
+  display:none;
+}
+.sheet.open{display:block}
+.sheet-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;max-width:1240px;margin:0 auto}
+.sheet-item{
+  text-align:left;background:var(--panel-2);border:1px solid var(--line);border-radius:var(--r-md);
+  padding:15px 17px;cursor:pointer;transition:border-color var(--dur) var(--ease),background var(--dur) var(--ease);
+}
+.sheet-item:hover:not(:disabled){border-color:var(--sky-deep);background:var(--panel-3)}
+.sheet-item:disabled{opacity:.45;cursor:not-allowed}
+.sheet-item .si-t{font-weight:600;font-size:.9375rem;display:flex;align-items:center;gap:9px}
+.sheet-item .si-d{font-size:.8125rem;color:var(--ink-3);margin-top:4px}
+
+/* ---------- Abas ---------- */
+main{max-width:1240px;margin:0 auto;padding:38px 30px 90px}
+/* recebe foco só para o leitor de tela acompanhar a troca de aba; não é um controle */
+main:focus-visible{outline:none}
+.view{display:none}
+.view.active{display:block}
+.eyebrow{
+  font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);font-weight:600;margin-bottom:16px;
+}
+.view-head{margin-bottom:24px}
+.view-head h1{font-size:1.75rem;font-weight:700;letter-spacing:-.025em;line-height:1.2}
+.view-head p{color:var(--ink-2);margin-top:8px;max-width:640px}
+
+/* ---------- Etapas da trilha (1 · 2 · 3) ---------- */
+.stepper{display:flex;align-items:center;gap:10px;margin-bottom:28px;flex-wrap:wrap}
+.stp{
+  display:inline-flex;align-items:center;gap:9px;height:36px;padding:0 14px 0 6px;border-radius:var(--r-pill);
+  background:transparent;border:1px solid transparent;font-size:.875rem;font-weight:500;color:var(--ink-3);cursor:pointer;
+}
+.stp:hover:not(:disabled){color:var(--ink);background:var(--panel-2)}
+.stp:disabled{cursor:not-allowed;opacity:.55}
+.stp-n{
+  width:24px;height:24px;border-radius:50%;border:1.5px solid var(--line);display:inline-flex;align-items:center;justify-content:center;
+  font-family:var(--f-mono);font-size:.75rem;font-weight:600;
+}
+.stp.done{color:var(--ink-2)}
+.stp.done .stp-n{border-color:var(--mint);color:var(--mint)}
+.stp[aria-current="step"]{color:var(--ink);font-weight:600;background:var(--panel);border-color:var(--line-soft)}
+.stp[aria-current="step"] .stp-n{background:var(--sky);border-color:var(--sky);color:var(--on-sky)}
+.stp-ln{flex:0 0 28px;height:1px;background:var(--line)}
+
+/* ---------- Início ---------- */
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;padding:44px 0 20px}
+.hero h1{font-size:clamp(2.4rem,4.6vw,3.9rem);font-weight:800;letter-spacing:-.035em;line-height:1.04}
+.hero p.lead{color:var(--ink-2);font-size:1.0625rem;margin-top:26px;max-width:430px}
+.hero .note{font-size:.8125rem;color:var(--ink-3);margin-top:18px;max-width:250px}
+.cta{
+  display:inline-flex;align-items:center;gap:11px;height:56px;padding:0 30px;margin-top:30px;
+  border-radius:var(--r-md);background:var(--sky);color:var(--on-sky);border:none;
+  font-size:1rem;font-weight:600;cursor:pointer;transition:transform var(--dur) var(--ease),filter var(--dur) var(--ease);
+}
+.cta:hover{filter:brightness(1.08)}
+.cta:active{transform:translateY(1px)}
+.steps-col{display:flex;flex-direction:column;gap:16px}
+.step-card{
+  display:flex;gap:18px;background:var(--panel);border:1px solid var(--line-soft);border-radius:var(--r-md);
+  padding:24px 26px;
+}
+.step-card .num{font-family:var(--f-mono);font-size:.875rem;font-weight:600;color:var(--sky-deep);padding-top:2px}
+.step-card h3,.step-card h2.h3{font-size:1.0625rem;font-weight:700;letter-spacing:-.01em}
+.step-card p{font-size:.9rem;color:var(--ink-2);margin-top:5px}
+
+footer.ft{border-top:1px solid var(--line-soft);padding:26px 30px 40px;color:var(--ink-3);font-size:.8125rem;text-align:center}
+
+/* ---------- Responsivo ---------- */
+@media (min-width:861px){
+  .menu-btn{display:none}
+}
+@media (max-width:860px){
+  .navlinks{display:none}
+}
+@media (max-width:1080px){
+  .hero{grid-template-columns:1fr;gap:44px}
+}
+@media (max-width:720px){
+  .topbar{padding:0 16px;gap:8px}
+  .proto-warn{padding:14px 16px}
+  main{padding:26px 16px 70px}
+}
+@media (max-width:520px){
+  .top-right{gap:6px}
+  .stepper{gap:4px;flex-wrap:nowrap}
+  .stp{padding:0 8px 0 4px;font-size:.8125rem;gap:6px}
+  .stp-n{width:22px;height:22px}
+}
+/* telas muito estreitas: só a etapa atual mostra o nome; as outras ficam no número (o nome segue acessível) */
+@media (max-width:400px){
+  .stp:not([aria-current]) .stp-t{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+  .stp:not([aria-current]){padding:0 4px}
+  .stp-ln{flex:1 1 6px;min-width:6px}
+}

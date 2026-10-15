@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduTrack · Trilhas formativas</title>
+<meta name="description" content="EduTrack-GNN — diagnóstico entre o currículo de Ciência da Computação e as competências exigidas pelas vagas de tecnologia de Manaus.">
+<link rel="icon" href="assets/logo-et.svg" type="image/svg+xml">
+<!-- Fontes servidas pelo próprio EduTrack: a página não faz nenhuma requisição a terceiros (RF42). -->
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/components.css">
+<script src="js/aviso-protocolo.js" defer></script>
+<script type="module" src="js/app.js"></script>
+</head>
+<body>
+<a href="#main" class="skip">Pular para o conteúdo</a>
+
+<header class="topbar">
+  <button class="brand" data-go="inicio" title="Página inicial"><span class="mk" aria-hidden="true">ET</span><span class="bt">EduTrack</span></button>
+  <nav class="navlinks" aria-label="Seções">
+    <button class="navlink" data-go="jornada">Minha trilha</button>
+    <button class="navlink" data-go="mercado">Mercado</button>
+    <button class="navlink" data-go="coordenacao">Coordenação</button>
+    <button class="navlink" data-go="sobre">Sobre</button>
+  </nav>
+  <div class="top-right">
+    <button class="round-btn theme-btn" aria-label="Alternar tema claro e escuro" title="Tema claro ou escuro">
+      <svg class="i ic-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.4"/><path d="M12 2.6v2.2M12 19.2v2.2M4.3 4.3l1.6 1.6M18.1 18.1l1.6 1.6M2.6 12h2.2M19.2 12h2.2M4.3 19.7l1.6-1.6M18.1 5.9l1.6-1.6"/></svg>
+      <svg class="i ic-moon" viewBox="0 0 24 24" aria-hidden="true" style="display:none"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/></svg>
+    </button>
+    <button class="round-btn" id="a11yBtn" aria-pressed="false" aria-label="Reduzir animações" title="Reduzir animações">
+      <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor" stroke="none"/></svg>
+    </button>
+    <button class="round-btn menu-btn" id="menuBtn" aria-expanded="false" aria-controls="sheet" aria-label="Menu">
+      <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="proto-warn" id="protocol-warning" role="alert" hidden>
+  <p><b>Abra o EduTrack pelo iniciar.bat.</b> A página precisa do serviço de análise rodando: dê dois cliques em <code>iniciar.bat</code> (Windows) ou rode <code>python iniciar.py</code> na pasta do projeto, e o navegador abre em <code>http://127.0.0.1:8000</code>.</p>
+</div>
+
+<div class="sheet" id="sheet">
+  <div class="sheet-grid" id="sheetGrid"></div>
+</div>
+
+<main id="main" tabindex="-1" aria-busy="true">
+
+  <!-- INÍCIO -->
+  <section class="view active" id="v-inicio" aria-labelledby="t-inicio">
+    <div class="hero">
+      <div>
+        <p class="eyebrow">Ciência da Computação · FAMETRO</p>
+        <h1 id="t-inicio">Seu caminho entre a formação acadêmica e o mercado de trabalho</h1>
+        <p class="lead">Marque as disciplinas que você já fez e veja o que as vagas de tecnologia de Manaus pedem, o que ainda falta para você e quais disciplinas cursar para chegar lá.</p>
+        <button class="cta" data-go="perfil">Começar
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true" style="width:19px;height:19px"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+        <p class="note">Leva cerca de 2 minutos. Sem cadastro e sem login.</p>
+      </div>
+      <div class="steps-col">
+        <div class="step-card"><span class="num">1</span><div><h2 class="h3">Você marca suas disciplinas</h2><p>As que você já concluiu no curso.</p></div></div>
+        <div class="step-card"><span class="num">2</span><div><h2 class="h3">Você vê o que falta</h2><p id="passo2">O que as vagas pedem e você ainda não aprendeu.</p></div></div>
+        <div class="step-card"><span class="num">3</span><div><h2 class="h3">Você recebe uma trilha</h2><p>As disciplinas que mais aproximam você das vagas, na ordem em que dá para cursá-las.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ETAPAS DA TRILHA -->
+  <nav class="stepper" id="stepper" aria-label="Etapas" hidden>
+    <button class="stp" data-go="perfil"><span class="stp-n" aria-hidden="true">1</span><span class="stp-t">Suas disciplinas</span></button>
+    <span class="stp-ln" aria-hidden="true"></span>
+    <button class="stp" data-go="diagnostico" data-lock><span class="stp-n" aria-hidden="true">2</span><span class="stp-t">O que falta</span></button>
+    <span class="stp-ln" aria-hidden="true"></span>
+    <button class="stp" data-go="trilha" data-lock><span class="stp-n" aria-hidden="true">3</span><span class="stp-t">Sua trilha</span></button>
+  </nav>
+
+  <!-- PERFIL -->
+  <section class="view" id="v-perfil" aria-labelledby="t-perfil">
+    <div class="view-head">
+      <h1 id="t-perfil">Quais disciplinas você já concluiu?</h1>
+      <p>Marque as que você já fez. Nada fica gravado: a seleção some quando você fecha a aba.</p>
+    </div>
+    <div class="panel">
+      <div class="panel-head">
+        <div class="srch">
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.6" y2="16.6"/></svg>
+          <label for="pickSearch" class="sr">Buscar disciplina</label>
+          <input type="search" id="pickSearch" placeholder="Buscar disciplina…">
+        </div>
+        <div class="inline-sel ate-sel">
+          <label for="ateSel">Marcar tudo até o</label>
+          <select id="ateSel"><option value="">escolha</option></select>
+        </div>
+      </div>
+      <div class="panel-body" id="pickHost"></div>
+      <div class="panel-foot sticky-foot">
+        <span class="pick-count" id="pickCount" aria-live="polite">0 selecionadas</span>
+        <button class="btn btn-quiet btn-sm" id="btnLimpar">Limpar</button>
+        <div class="push">
+          <button class="btn btn-quiet btn-sm" id="btnImportarSel" title="Carrega uma seleção salva antes">Abrir arquivo</button>
+          <button class="btn btn-quiet btn-sm" id="btnExportarSel" disabled title="Baixa a seleção para continuar outro dia">Salvar arquivo</button>
+          <input type="file" id="inputSelecao" class="sr" accept=".json,application/json" tabindex="-1" aria-hidden="true">
+          <button class="btn btn-main" id="btnAnalisar" disabled title="Marque ao menos uma disciplina">Ver o que falta <svg class="i" viewBox="0 0 24 24" aria-hidden="true" style="width:17px;height:17px"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIAGNÓSTICO -->
+  <section class="view" id="v-diagnostico" aria-labelledby="t-diag">
+    <div class="view-head head-cta">
+      <div>
+        <h1 id="t-diag">O que você já sabe e o que falta</h1>
+        <p id="diagSub">Comparação entre as competências da sua formação e o que as vagas coletadas pedem.</p>
+      </div>
+      <button class="btn btn-main" data-go="trilha">Ver minha trilha <svg class="i" viewBox="0 0 24 24" aria-hidden="true" style="width:17px;height:17px"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+    </div>
+    <div class="kpis" id="kpis"></div>
+    <details class="mini-fold como-ler">
+      <summary>Como ler estes números</summary>
+      <div id="comoLer"></div>
+    </details>
+
+    <div class="panel">
+      <div class="panel-head">
+        <div><h2>O que falta aprender</h2><p id="gapSub">Competências pedidas pelas vagas que suas disciplinas ainda não cobriram, das mais pedidas para as menos</p></div>
+        <div class="seg" id="gapPills" role="group" aria-label="Filtrar por prioridade">
+          <button class="pill" aria-pressed="true" data-sev="todas">Todas</button>
+          <button class="pill" aria-pressed="false" data-sev="danger">Alta</button>
+          <button class="pill" aria-pressed="false" data-sev="warn">Média</button>
+          <button class="pill" aria-pressed="false" data-sev="info">Baixa</button>
+        </div>
+      </div>
+      <div class="panel-body" id="gapHost"></div>
+    </div>
+
+    <details class="panel fold">
+      <summary class="panel-head"><div><h2>O que você já tem</h2><p>Competências ensinadas pelas disciplinas que você marcou</p></div><span class="fold-ic" aria-hidden="true"></span></summary>
+      <div class="panel-body" id="domina"></div>
+    </details>
+  </section>
+
+  <!-- MERCADO -->
+  <section class="view" id="v-mercado" aria-labelledby="t-merc">
+    <div class="view-head">
+      <h1 id="t-merc">Mercado de TI em Manaus</h1>
+      <p id="coletaInfo">Vagas coletadas em anúncios públicos.</p>
+    </div>
+
+    <div class="merc-grid">
+      <aside class="panel merc-side" aria-labelledby="t-top">
+        <div class="panel-head"><div><h2 id="t-top">Mais pedidas</h2><p>Em quantas vagas cada competência aparece</p></div></div>
+        <div class="panel-body" id="topSkills"></div>
+      </aside>
+
+      <div class="merc-main">
+        <div class="filters">
+          <div class="srch">
+            <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.6" y2="16.6"/></svg>
+            <label for="jobSearch" class="sr">Buscar vaga</label>
+            <input type="search" id="jobSearch" placeholder="Cargo, empresa ou competência…">
+          </div>
+          <label for="jobArea" class="sr">Área da vaga</label>
+          <select id="jobArea"><option value="todos">Todas as áreas</option></select>
+          <label for="jobNivel" class="sr">Nível declarado no título</label>
+          <select id="jobNivel">
+            <option value="todos">Todos os níveis</option><option>Estágio</option><option>Júnior</option><option>Pleno</option><option>Sênior</option>
+          </select>
+        </div>
+        <p class="jobs-count" id="jobsCount" aria-live="polite"></p>
+        <div class="jobs" id="jobs"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRILHA -->
+  <section class="view" id="v-trilha" aria-labelledby="t-tri">
+    <div class="view-head head-cta">
+      <div>
+        <h1 id="t-tri">Sua trilha</h1>
+        <p id="triSub">As disciplinas que mais aproximam você das vagas, na ordem em que dá para cursá-las.</p>
+      </div>
+      <div class="dl-group" role="group" aria-label="Baixar a trilha">
+        <button class="btn btn-line btn-sm" id="expCsv" aria-label="Baixar trilha em CSV"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" style="width:15px;height:15px"><path d="M12 4v11"/><polyline points="7 10 12 15 17 10"/><path d="M5 20h14"/></svg>CSV</button>
+        <button class="btn btn-line btn-sm" id="expJson" aria-label="Baixar trilha em JSON"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" style="width:15px;height:15px"><path d="M12 4v11"/><polyline points="7 10 12 15 17 10"/><path d="M5 20h14"/></svg>JSON</button>
+      </div>
+    </div>
+
+    <div class="tri-bar">
+      <div class="inline-sel">
+        <label for="perfilSel">Quero trabalhar com</label>
+        <select id="perfilSel"></select>
+      </div>
+      <details class="tri-adv">
+        <summary>Ajustes</summary>
+        <div class="tri-adv-b">
+          <div>
+            <p class="sec-t" id="modeloLbl">Como escolher as disciplinas</p>
+            <div class="pills" id="modeloPills" role="group" aria-labelledby="modeloLbl"></div>
+          </div>
+          <div>
+            <label class="sec-t" for="kSel" style="display:block">Quantas disciplinas mostrar</label>
+            <select id="kSel" class="inp" style="width:auto;min-width:150px;height:40px">
+              <option value="1">1</option><option value="3">3</option><option value="5" selected>5</option><option value="10">10</option>
+            </select>
+          </div>
+        </div>
+      </details>
+    </div>
+
+    <div class="panel" id="triProc" hidden>
+      <div class="proc" role="status"><div class="ring" aria-hidden="true"></div><p>Calculando sua trilha…</p></div>
+    </div>
+
+    <div id="triRes" hidden>
+      <section class="sum-card" aria-labelledby="resTit">
+        <div>
+          <h2 id="resTit">Trilha pronta</h2>
+          <p class="res-m" id="resM"></p>
+        </div>
+        <div id="aderHost"></div>
+      </section>
+
+      <div class="panel">
+        <div class="panel-head"><div><h2>Cursar nesta ordem</h2><p id="ordemSub">Pré-requisitos primeiro; depois, as de período mais cedo</p></div></div>
+        <div class="panel-body" id="rank"></div>
+      </div>
+      <section class="panel" aria-labelledby="t-porque">
+        <div class="panel-head">
+          <div><h2 id="t-porque">Por que estas disciplinas</h2><p>O que cada uma ensina que as vagas pedem e você ainda não sabe</p></div>
+          <button class="btn btn-line btn-sm" id="tgTabela" aria-controls="tgTab tgCanvas">Ver como tabela</button>
+        </div>
+        <div class="panel-body">
+          <div class="legend">
+            <span class="lg"><span class="sw" style="background:var(--node-a)"></span> Disciplina da trilha</span>
+            <span class="lg"><span class="sw dm" style="background:var(--node-m)"></span> O que você aprende (e em quantas vagas, de cada 100, isso é pedido)</span>
+          </div>
+          <div class="canvas" id="tgCanvas"></div>
+          <div class="tbl-wrap canvas-tbl" id="tgTab" hidden></div>
+        </div>
+      </section>
+      <div id="complHost"></div>
+
+      <details class="mini-fold">
+        <summary>Dá para confiar nesta recomendação?</summary>
+        <div id="acertoHost"></div>
+        <p class="nota-fina">Calculada pelo serviço em <span class="mono" id="triTempo">0 ms</span>.</p>
+      </details>
+    </div>
+    <div class="panel" id="triErro" hidden>
+      <div class="panel-body" id="triErroBody"></div>
+    </div>
+  </section>
+
+  <!-- COORDENAÇÃO -->
+  <section class="view" id="v-coordenacao" aria-labelledby="t-coord">
+    <div class="view-head head-cta">
+      <div>
+        <h1 id="t-coord">Lacunas do curso</h1>
+        <p>Para coordenação e NDE: o que as vagas pedem e a grade não ensina, sem perfil de estudante.</p>
+      </div>
+      <div class="inline-sel">
+        <label for="coArea">Vagas de</label>
+        <select id="coArea"></select>
+      </div>
+    </div>
+    <div class="kpis" id="coKpis" aria-live="polite"></div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <div><h2>Pedidas pelas vagas e não ensinadas no curso</h2><p>Nenhuma disciplina da grade ensina; das mais pedidas para as menos</p></div>
+        <button class="btn btn-line btn-sm" id="coCsv"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" style="width:15px;height:15px"><path d="M12 4v11"/><polyline points="7 10 12 15 17 10"/><path d="M5 20h14"/></svg>Baixar CSV</button>
+      </div>
+      <div class="panel-body" style="padding:0"><div class="tbl-wrap" id="coGaps"></div></div>
+    </div>
+
+    <details class="panel fold">
+      <summary class="panel-head"><div><h2>Cobertura por área</h2><p>Quantas das competências pedidas em cada área aparecem em alguma ementa</p></div><span class="fold-ic" aria-hidden="true"></span></summary>
+      <div class="panel-body" style="padding:0"><div class="tbl-wrap" id="coCats"></div></div>
+    </details>
+
+    <details class="panel fold">
+      <summary class="panel-head"><div><h2>Ensinadas sem demanda</h2><p>O curso ensina, mas nenhuma vaga desta área pede. Não significa excesso: muitas são base para outras.</p></div><span class="fold-ic" aria-hidden="true"></span></summary>
+      <div class="panel-body" style="padding:0"><div class="tbl-wrap" id="coSemDem"></div></div>
+    </details>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="view" id="v-sobre" aria-labelledby="t-sobre">
+    <div class="view-head">
+      <h1 id="t-sobre">Sobre o EduTrack</h1>
+    </div>
+
+    <div class="panel">
+      <div class="panel-body prose">
+        <p>O EduTrack-GNN compara o que o curso de Ciência da Computação da FAMETRO ensina com o que as vagas de tecnologia de Manaus pedem. As ementas das disciplinas e os anúncios de vaga passam por uma normalização que reconhece competências no texto e reduz as variações de escrita a uma forma única, para que "Python 3", "linguagem Python" e "python" sejam a mesma competência.</p>
+        <p>O uso é anônimo: não há cadastro nem login. As disciplinas que você marca ficam só nesta aba do navegador e somem quando ela é fechada. Elas vão ao serviço apenas no momento do cálculo, que as usa em memória e não grava nada. Para continuar outro dia, use "Salvar arquivo" na etapa Disciplinas e abra o arquivo quando voltar.</p>
+      </div>
+    </div>
+
+    <section class="panel" aria-labelledby="t-como">
+      <div class="panel-head"><div><h2 id="t-como">Como funciona</h2></div></div>
+      <div class="panel-body">
+        <ol class="como">
+          <li><b>Leitura.</b> O sistema lê o conteúdo das disciplinas (ementas do PPC) e os anúncios de vaga e reconhece os conhecimentos citados, tratando "Python 3", "linguagem Python" e "python" como a mesma coisa. <span id="comoCob"></span></li>
+          <li><b>Grafo.</b> Disciplinas, competências e vagas viram um grafo: a disciplina <i>ensina</i> a competência, a vaga <i>pede</i> a competência.</li>
+          <li><b>IA.</b> Dois métodos estimam o quanto cada disciplina tem a ver com cada conhecimento: uma rede neural de grafos (GraphSAGE) e uma comparação de textos (TF-IDF). O que acertou mais nos testes escolhe a trilha; a rede neural também sugere uma disciplina de apoio para conhecimentos que nenhuma disciplina ensina.</li>
+        </ol>
+        <p class="nota-fina">Para auditoria, o vocabulário completo e cada decisão da normalização estão disponíveis na <a class="linkbtn" href="docs" target="_blank" rel="noopener">documentação da API<span class="sr"> (abre em nova aba)</span></a> e em <a class="linkbtn" href="api/ontologia" download="ontologia-edutrack.json">ontologia (JSON)</a>.</p>
+      </div>
+      <details class="fold-in" id="redeCompleta">
+        <summary><span><b>Ver a rede completa</b><span class="adv-d">Todas as disciplinas e competências do grafo, com as ligações das ementas e as sugestões da IA</span></span><span class="fold-ic" aria-hidden="true"></span></summary>
+        <div class="panel-body">
+          <div class="filters">
+      <label for="graphCat" class="sr">Categoria</label>
+      <select id="graphCat"><option value="todas">Todas as categorias</option></select>
+      <label for="graphFocus" class="sr">Centralizar em</label>
+      <select id="graphFocus"><option value="">Rede completa (sem foco)</option></select>
+      <button class="pill" id="predBtn" aria-pressed="true">Sugestões da IA (GNN)</button>
+      <button class="pill" id="tableBtn" aria-pressed="false" aria-controls="graphTable">Ver como tabela</button>
+    </div>
+
+        <div class="legend">
+          <span class="lg"><span class="sw" style="background:var(--node-a)"></span> Disciplina</span>
+          <span class="lg"><span class="sw" style="background:var(--node-m)"></span> Competência do mercado</span>
+          <span class="lg"><span class="sw dm" style="background:var(--rose)"></span> Competência sem disciplina (losango)</span>
+          <span class="lg"><span class="ln"></span> Ensinada na ementa</span>
+          <span class="lg"><span class="ln pd"></span> Sugestão da IA (GNN)</span>
+        </div>
+        <div class="canvas" id="canvas"></div>
+        <div class="tbl-wrap canvas-tbl" id="graphTable" hidden></div>
+        <div class="gstats" id="gstats"></div>
+        </div>
+      </details>
+    </section>
+
+    <div class="panel">
+      <div class="panel-head"><div><h2>Ficha técnica</h2></div></div>
+      <div class="panel-body">
+        <div class="about-grid">
+          <div class="about-item"><div class="k">Natureza</div><div class="v">Trabalho de Conclusão de Curso · Ciência da Computação · FAMETRO</div></div>
+          <div class="about-item"><div class="k">Base curricular</div><div class="v mono" id="aboutPpc">—</div></div>
+          <div class="about-item"><div class="k">Ementas</div><div class="v mono" id="aboutExtracao">—</div></div>
+          <div class="about-item"><div class="k">Mercado</div><div class="v mono" id="aboutVagas">—</div></div>
+          <div class="about-item"><div class="k">Vocabulário</div><div class="v mono" id="aboutSkills">—</div></div>
+          <div class="about-item"><div class="k">Modelo</div><div class="v" id="aboutModelo">—</div></div>
+          <div class="about-item"><div class="k">Objetivos de Desenvolvimento Sustentável</div><div class="v">4 — Educação de Qualidade · 9 — Indústria, Inovação e Infraestrutura</div></div>
+          <div class="about-item"><div class="k">Tecnologias</div><div class="v">Python · NumPy (GraphSAGE) · scikit-learn (TF-IDF) · FastAPI · HTML, CSS e JavaScript</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><div><h2>Como o modelo foi avaliado</h2><p id="avalSub">Predição de ligações disciplina–competência escondidas do treino</p></div></div>
+      <div class="panel-body" style="padding:0"><div class="tbl-wrap" id="avalHost"></div></div>
+      <div class="panel-body prose" id="avalLeitura"></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><div><h2>Origem dos dados</h2><p>Fonte, data de coleta e base legal de cada conjunto utilizado</p></div></div>
+      <div class="panel-body" style="padding:0"><div class="tbl-wrap" id="origemHost"></div></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><div><h2>Limitações</h2></div></div>
+      <div class="panel-body prose" id="limitesHost"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="ft" id="rodape">EduTrack-GNN · TCC de Ciência da Computação · FAMETRO, 2026.</footer>
+
+<!-- diálogos -->
+<div class="ov" id="ovInfo" role="dialog" aria-modal="true" aria-labelledby="infoT">
+  <div class="dlg">
+    <div class="dlg-h"><div><h2 id="infoT">Título</h2><p id="infoS"></p></div><button class="x" data-x aria-label="Fechar"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg></button></div>
+    <div class="dlg-b" id="infoB"></div>
+    <div class="dlg-f"><button class="btn btn-line" data-x>Fechar</button></div>
+  </div>
+</div>
+
+<div class="ov" id="ovConfirm" role="alertdialog" aria-modal="true" aria-labelledby="cfT">
+  <div class="dlg" style="max-width:460px">
+    <div class="dlg-h"><div><h2 id="cfT">Confirmar</h2></div><button class="x" data-x aria-label="Fechar"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg></button></div>
+    <div class="dlg-b" id="cfB"></div>
+    <div class="dlg-f"><button class="btn btn-line" data-x>Cancelar</button><button class="btn btn-main" id="cfOk">Confirmar</button></div>
+  </div>
+</div>
+
+<div class="toasts" id="toasts" aria-live="polite"></div>
+</body>
+</html>

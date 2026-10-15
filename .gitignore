@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.edutrack-gnn/
+*.log
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# texto do artigo: publicar só depois da defesa
+docs/Artigo_EduTrack-GNN.*
+docs/MUDANCAS_v1.2.md
+scripts/gerar_artigo.py
+
+# opcional, se a orientação pedir para não publicar o documento institucional
+# data/raw/programa_disciplinas_cco2024_1.pdf

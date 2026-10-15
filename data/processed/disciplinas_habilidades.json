@@ -1,0 +1,3048 @@
+{
+ "ingles": {
+  "texto": "Inglês. Leitura de textos técnicos em língua inglesa. Vocabulário técnico da área de computação. Estratégias de leitura instrumental. Estruturas gramaticais básicas da língua inglesa.",
+  "fonte_ementa": "referencia",
+  "habilidades": [
+   {
+    "skill": "ingles",
+    "ocorrencias": 4,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Inglês",
+     "leitura instrumental",
+     "língua inglesa"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "ingles",
+    "inicio": 0,
+    "fim": 6,
+    "termo": "Inglês"
+   },
+   {
+    "skill": "ingles",
+    "inicio": 38,
+    "fim": 52,
+    "termo": "língua inglesa"
+   },
+   {
+    "skill": "ingles",
+    "inicio": 112,
+    "fim": 132,
+    "termo": "leitura instrumental"
+   },
+   {
+    "skill": "ingles",
+    "inicio": 168,
+    "fim": 182,
+    "termo": "língua inglesa"
+   }
+  ]
+ },
+ "leitura_producao_textos": {
+  "texto": "Leitura, Interpretação e Produção de Textos. Leitura e interpretação de textos. Gêneros textuais. Coesão e coerência textual. Produção de textos acadêmicos e técnicos. Redação técnica e revisão textual.",
+  "fonte_ementa": "referencia",
+  "habilidades": [
+   {
+    "skill": "comunicacao",
+    "ocorrencias": 6,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Coesão e coerência textual",
+     "Gêneros textuais",
+     "Leitura e interpretação de textos",
+     "Produção de Textos",
+     "Produção de textos",
+     "Redação técnica"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "comunicacao",
+    "inicio": 25,
+    "fim": 43,
+    "termo": "Produção de Textos"
+   },
+   {
+    "skill": "comunicacao",
+    "inicio": 45,
+    "fim": 78,
+    "termo": "Leitura e interpretação de textos"
+   },
+   {
+    "skill": "comunicacao",
+    "inicio": 80,
+    "fim": 96,
+    "termo": "Gêneros textuais"
+   },
+   {
+    "skill": "comunicacao",
+    "inicio": 98,
+    "fim": 124,
+    "termo": "Coesão e coerência textual"
+   },
+   {
+    "skill": "comunicacao",
+    "inicio": 126,
+    "fim": 144,
+    "termo": "Produção de textos"
+   },
+   {
+    "skill": "comunicacao",
+    "inicio": 168,
+    "fim": 183,
+    "termo": "Redação técnica"
+   }
+  ]
+ },
+ "logica_matematica_discreta": {
+  "texto": "Lógica Matemática e Matemática Discreta. Lógica proposicional e lógica de predicados. Tabelas-verdade e métodos de prova. Teoria dos conjuntos. Relações e funções. Indução matemática. Álgebra booleana. Noções de combinatória.",
+  "fonte_ementa": "referencia",
+  "habilidades": [
+   {
+    "skill": "matematica_discreta",
+    "ocorrencias": 10,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Indução matemática",
+     "Lógica Matemática e Matemática Discreta",
+     "Lógica proposicional",
+     "Relações e funções",
+     "Tabelas-verdade",
+     "Teoria dos conjuntos",
+     "combinatória",
+     "lógica de predicados",
+     "métodos de prova",
+     "Álgebra booleana"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "matematica_discreta",
+    "inicio": 0,
+    "fim": 39,
+    "termo": "Lógica Matemática e Matemática Discreta"
+   },
+   {
+    "skill": "matematica_discreta",
+    "inicio": 41,
+    "fim": 61,
+    "termo": "Lógica proposicional"
+   },
+   {
+    "skill": "matematica_discreta",
+    "inicio": 64,
+    "fim": 84,
+    "termo": "lógica de predicados"
+   },
+   {
+    "skill": "matematica_discreta",
+    "inicio": 86,
+    "fim": 101,
+    "termo": "Tabelas-verdade"
+   },
+   {
+    "skill": "matematica_discreta",
+    "inicio": 104,
+    "fim": 120,
+    "termo": "métodos de prova"
+   },
+   {
+    "skill": "matematica_discreta",
+    "inicio": 122,
+    "fim": 142,
+    "termo": "Teoria dos conjuntos"
+   },
+   {
+    "skill": "matematica_discreta",
+    "inicio": 144,
+    "fim": 162,
+    "termo": "Relações e funções"
+   },
+   {
+    "skill": "matematica_discreta",
+    "inicio": 164,
+    "fim": 182,
+    "termo": "Indução matemática"
+   },
+   {
+    "skill": "matematica_discreta",
+    "inicio": 184,
+    "fim": 200,
+    "termo": "Álgebra booleana"
+   },
+   {
+    "skill": "matematica_discreta",
+    "inicio": 212,
+    "fim": 224,
+    "termo": "combinatória"
+   }
+  ]
+ },
+ "probabilidade_estatistica": {
+  "texto": "Probabilidade e Estatística. Estatística descritiva. Probabilidade. Variáveis aleatórias e distribuições de probabilidade. Amostragem. Inferência estatística e testes de hipótese. Correlação e regressão linear.",
+  "fonte_ementa": "referencia",
+  "habilidades": [
+   {
+    "skill": "estatistica",
+    "ocorrencias": 9,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Amostragem",
+     "Estatística descritiva",
+     "Inferência estatística",
+     "Probabilidade",
+     "Probabilidade e Estatística",
+     "Variáveis aleatórias",
+     "distribuições de probabilidade",
+     "regressão linear",
+     "testes de hipótese"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "estatistica",
+    "inicio": 0,
+    "fim": 27,
+    "termo": "Probabilidade e Estatística"
+   },
+   {
+    "skill": "estatistica",
+    "inicio": 29,
+    "fim": 51,
+    "termo": "Estatística descritiva"
+   },
+   {
+    "skill": "estatistica",
+    "inicio": 53,
+    "fim": 66,
+    "termo": "Probabilidade"
+   },
+   {
+    "skill": "estatistica",
+    "inicio": 68,
+    "fim": 88,
+    "termo": "Variáveis aleatórias"
+   },
+   {
+    "skill": "estatistica",
+    "inicio": 91,
+    "fim": 121,
+    "termo": "distribuições de probabilidade"
+   },
+   {
+    "skill": "estatistica",
+    "inicio": 123,
+    "fim": 133,
+    "termo": "Amostragem"
+   },
+   {
+    "skill": "estatistica",
+    "inicio": 135,
+    "fim": 157,
+    "termo": "Inferência estatística"
+   },
+   {
+    "skill": "estatistica",
+    "inicio": 160,
+    "fim": 178,
+    "termo": "testes de hipótese"
+   },
+   {
+    "skill": "estatistica",
+    "inicio": 193,
+    "fim": 209,
+    "termo": "regressão linear"
+   }
+  ]
+ },
+ "aed1": {
+  "texto": "Algoritmo e Estrutura de Dados I. Tipos abstratos de dados. Vetores e registros. Ponteiros e alocação dinâmica de memória. Recursividade. Listas encadeadas, pilhas e filas. Algoritmos de ordenação e busca. Noções de análise de algoritmos.",
+  "fonte_ementa": "referencia",
+  "habilidades": [
+   {
+    "skill": "algoritmos",
+    "ocorrencias": 3,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Algoritmo",
+     "Algoritmos",
+     "Recursividade"
+    ]
+   },
+   {
+    "skill": "estruturas_dados",
+    "ocorrencias": 9,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Estrutura de Dados",
+     "Listas encadeadas",
+     "Ponteiros",
+     "Tipos abstratos de dados",
+     "Vetores e registros",
+     "alocação dinâmica de memória",
+     "filas",
+     "ordenação",
+     "pilhas"
+    ]
+   },
+   {
+    "skill": "complexidade",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "análise de algoritmos"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "algoritmos",
+    "inicio": 0,
+    "fim": 9,
+    "termo": "Algoritmo"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 12,
+    "fim": 30,
+    "termo": "Estrutura de Dados"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 34,
+    "fim": 58,
+    "termo": "Tipos abstratos de dados"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 60,
+    "fim": 79,
+    "termo": "Vetores e registros"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 81,
+    "fim": 90,
+    "termo": "Ponteiros"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 93,
+    "fim": 121,
+    "termo": "alocação dinâmica de memória"
+   },
+   {
+    "skill": "algoritmos",
+    "inicio": 123,
+    "fim": 136,
+    "termo": "Recursividade"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 138,
+    "fim": 155,
+    "termo": "Listas encadeadas"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 157,
+    "fim": 163,
+    "termo": "pilhas"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 166,
+    "fim": 171,
+    "termo": "filas"
+   },
+   {
+    "skill": "algoritmos",
+    "inicio": 173,
+    "fim": 183,
+    "termo": "Algoritmos"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 187,
+    "fim": 196,
+    "termo": "ordenação"
+   },
+   {
+    "skill": "complexidade",
+    "inicio": 216,
+    "fim": 237,
+    "termo": "análise de algoritmos"
+   }
+  ]
+ },
+ "arquitetura_computadores": {
+  "texto": "Arquitetura e Organização de Computadores. Sistemas de numeração e conversão de bases. Circuitos digitais e portas lógicas. Organização do processador (CPU) e conjunto de instruções. Linguagem de montagem. Hierarquia de memória e memória cache. Dispositivos de entrada e saída.",
+  "fonte_ementa": "referencia",
+  "habilidades": [
+   {
+    "skill": "arquitetura_computadores",
+    "ocorrencias": 12,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Arquitetura e Organização de Computadores",
+     "CPU",
+     "Circuitos digitais",
+     "Dispositivos de entrada e saída",
+     "Hierarquia de memória",
+     "Linguagem de montagem",
+     "Organização do processador",
+     "Sistemas de numeração",
+     "conjunto de instruções",
+     "conversão de bases",
+     "memória cache",
+     "portas lógicas"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "arquitetura_computadores",
+    "inicio": 0,
+    "fim": 41,
+    "termo": "Arquitetura e Organização de Computadores"
+   },
+   {
+    "skill": "arquitetura_computadores",
+    "inicio": 43,
+    "fim": 64,
+    "termo": "Sistemas de numeração"
+   },
+   {
+    "skill": "arquitetura_computadores",
+    "inicio": 67,
+    "fim": 85,
+    "termo": "conversão de bases"
+   },
+   {
+    "skill": "arquitetura_computadores",
+    "inicio": 87,
+    "fim": 105,
+    "termo": "Circuitos digitais"
+   },
+   {
+    "skill": "arquitetura_computadores",
+    "inicio": 108,
+    "fim": 122,
+    "termo": "portas lógicas"
+   },
+   {
+    "skill": "arquitetura_computadores",
+    "inicio": 124,
+    "fim": 150,
+    "termo": "Organização do processador"
+   },
+   {
+    "skill": "arquitetura_computadores",
+    "inicio": 152,
+    "fim": 155,
+    "termo": "CPU"
+   },
+   {
+    "skill": "arquitetura_computadores",
+    "inicio": 159,
+    "fim": 181,
+    "termo": "conjunto de instruções"
+   },
+   {
+    "skill": "arquitetura_computadores",
+    "inicio": 183,
+    "fim": 204,
+    "termo": "Linguagem de montagem"
+   },
+   {
+    "skill": "arquitetura_computadores",
+    "inicio": 206,
+    "fim": 227,
+    "termo": "Hierarquia de memória"
+   },
+   {
+    "skill": "arquitetura_computadores",
+    "inicio": 230,
+    "fim": 243,
+    "termo": "memória cache"
+   },
+   {
+    "skill": "arquitetura_computadores",
+    "inicio": 245,
+    "fim": 276,
+    "termo": "Dispositivos de entrada e saída"
+   }
+  ]
+ },
+ "calculo": {
+  "texto": "Cálculo. Funções reais. Limites e continuidade. Derivadas e aplicações. Integrais e técnicas de integração. Aplicações do cálculo diferencial e integral.",
+  "fonte_ementa": "referencia",
+  "habilidades": [
+   {
+    "skill": "calculo",
+    "ocorrencias": 6,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Cálculo",
+     "Derivadas",
+     "Funções reais",
+     "Integrais",
+     "Limites e continuidade",
+     "cálculo diferencial e integral"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "calculo",
+    "inicio": 0,
+    "fim": 7,
+    "termo": "Cálculo"
+   },
+   {
+    "skill": "calculo",
+    "inicio": 9,
+    "fim": 22,
+    "termo": "Funções reais"
+   },
+   {
+    "skill": "calculo",
+    "inicio": 24,
+    "fim": 46,
+    "termo": "Limites e continuidade"
+   },
+   {
+    "skill": "calculo",
+    "inicio": 48,
+    "fim": 57,
+    "termo": "Derivadas"
+   },
+   {
+    "skill": "calculo",
+    "inicio": 72,
+    "fim": 81,
+    "termo": "Integrais"
+   },
+   {
+    "skill": "calculo",
+    "inicio": 122,
+    "fim": 152,
+    "termo": "cálculo diferencial e integral"
+   }
+  ]
+ },
+ "programacao_estruturada": {
+  "texto": "Lógica e Linguagem de Programação Estruturada. Lógica de programação. Programação estruturada. Tipos de dados, operadores e expressões. Estruturas condicionais e de repetição. Modularização com funções. Vetores e cadeias de caracteres.",
+  "fonte_ementa": "referencia",
+  "habilidades": [
+   {
+    "skill": "paradigmas",
+    "ocorrencias": 2,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Linguagem de Programação",
+     "Programação estruturada"
+    ]
+   },
+   {
+    "skill": "algoritmos",
+    "ocorrencias": 5,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Estruturas condicionais",
+     "Lógica de programação",
+     "Modularização",
+     "Tipos de dados",
+     "operadores e expressões"
+    ]
+   },
+   {
+    "skill": "estruturas_dados",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "cadeias de caracteres"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "paradigmas",
+    "inicio": 9,
+    "fim": 33,
+    "termo": "Linguagem de Programação"
+   },
+   {
+    "skill": "algoritmos",
+    "inicio": 47,
+    "fim": 68,
+    "termo": "Lógica de programação"
+   },
+   {
+    "skill": "paradigmas",
+    "inicio": 70,
+    "fim": 93,
+    "termo": "Programação estruturada"
+   },
+   {
+    "skill": "algoritmos",
+    "inicio": 95,
+    "fim": 109,
+    "termo": "Tipos de dados"
+   },
+   {
+    "skill": "algoritmos",
+    "inicio": 111,
+    "fim": 134,
+    "termo": "operadores e expressões"
+   },
+   {
+    "skill": "algoritmos",
+    "inicio": 136,
+    "fim": 159,
+    "termo": "Estruturas condicionais"
+   },
+   {
+    "skill": "algoritmos",
+    "inicio": 176,
+    "fim": 189,
+    "termo": "Modularização"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 213,
+    "fim": 234,
+    "termo": "cadeias de caracteres"
+   }
+  ]
+ },
+ "sociologia_antropologia": {
+  "texto": "Sociologia e Antropologia. Fundamentos de sociologia e antropologia. Cultura, sociedade e identidade. Diversidade e relações étnico-raciais. Trabalho e tecnologia na sociedade contemporânea.",
+  "fonte_ementa": "referencia",
+  "habilidades": [],
+  "evidencias": []
+ },
+ "aed2": {
+  "texto": "Algoritmo e Estrutura de Dados II. Listas; Listas ordenadas; Pilhas; Filas; Deques; Pesquisa de dados; Árvores: Árvore binária, Árvore binária de pesquisa, Árvore avl; Indexação; Hashing; Árvore-b; Classificação de dados.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "algoritmos",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Algoritmo"
+    ]
+   },
+   {
+    "skill": "estruturas_dados",
+    "ocorrencias": 15,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Classificação de dados",
+     "Deques",
+     "Estrutura de Dados",
+     "Filas",
+     "Hashing",
+     "Indexação",
+     "Listas",
+     "Listas ordenadas",
+     "Pesquisa de dados",
+     "Pilhas",
+     "Árvore avl",
+     "Árvore binária",
+     "Árvore binária de pesquisa",
+     "Árvore-b",
+     "Árvores"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "algoritmos",
+    "inicio": 0,
+    "fim": 9,
+    "termo": "Algoritmo"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 12,
+    "fim": 30,
+    "termo": "Estrutura de Dados"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 35,
+    "fim": 41,
+    "termo": "Listas"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 43,
+    "fim": 59,
+    "termo": "Listas ordenadas"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 61,
+    "fim": 67,
+    "termo": "Pilhas"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 69,
+    "fim": 74,
+    "termo": "Filas"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 76,
+    "fim": 82,
+    "termo": "Deques"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 84,
+    "fim": 101,
+    "termo": "Pesquisa de dados"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 103,
+    "fim": 110,
+    "termo": "Árvores"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 112,
+    "fim": 126,
+    "termo": "Árvore binária"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 128,
+    "fim": 154,
+    "termo": "Árvore binária de pesquisa"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 156,
+    "fim": 166,
+    "termo": "Árvore avl"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 168,
+    "fim": 177,
+    "termo": "Indexação"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 179,
+    "fim": 186,
+    "termo": "Hashing"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 188,
+    "fim": 196,
+    "termo": "Árvore-b"
+   },
+   {
+    "skill": "estruturas_dados",
+    "inicio": 198,
+    "fim": 220,
+    "termo": "Classificação de dados"
+   }
+  ]
+ },
+ "algoritmos_tecnicas_programacao": {
+  "texto": "Algoritmos e Técnicas de Programação. Noções de lógica e os conceitos de algoritmo, classificação dos elementos básicos da construção de algoritmos: dados, tipos primitivos de dados, constantes, variáveis, funções pré-definidas e expressões; comandos de entrada, saída e atribuição; estrutura sequencial, seletiva e repetitiva de controle de programação. Implementação de algoritmos que empreguem elementos básicos da construção de programas de computador.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "algoritmos",
+    "ocorrencias": 7,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Algoritmos",
+     "algoritmo",
+     "algoritmos",
+     "construção de algoritmos",
+     "construção de programas",
+     "estrutura sequencial",
+     "tipos primitivos de dados"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "algoritmos",
+    "inicio": 0,
+    "fim": 10,
+    "termo": "Algoritmos"
+   },
+   {
+    "skill": "algoritmos",
+    "inicio": 73,
+    "fim": 82,
+    "termo": "algoritmo"
+   },
+   {
+    "skill": "algoritmos",
+    "inicio": 123,
+    "fim": 147,
+    "termo": "construção de algoritmos"
+   },
+   {
+    "skill": "algoritmos",
+    "inicio": 156,
+    "fim": 181,
+    "termo": "tipos primitivos de dados"
+   },
+   {
+    "skill": "algoritmos",
+    "inicio": 283,
+    "fim": 303,
+    "termo": "estrutura sequencial"
+   },
+   {
+    "skill": "algoritmos",
+    "inicio": 372,
+    "fim": 382,
+    "termo": "algoritmos"
+   },
+   {
+    "skill": "algoritmos",
+    "inicio": 418,
+    "fim": 441,
+    "termo": "construção de programas"
+   }
+  ]
+ },
+ "programacao_oo": {
+  "texto": "Linguagem de Programação Orientada a Objeto. Conceito de paradigmas de programação, conceitos de programação orientada a objetos: objetos, métodos, propriedades, encapsulamento, classes (concreta, abstrata, interface, ENUM), hierarquização (super e subclasse), herança, polimorfismo, mensagens, associação. Programação visual e orientada a eventos (JFrame). Implementação de algorítimos em laboratório.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "paradigmas",
+    "ocorrencias": 2,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Linguagem de Programação",
+     "paradigmas de programação"
+    ]
+   },
+   {
+    "skill": "poo",
+    "ocorrencias": 5,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Orientada a Objeto",
+     "encapsulamento",
+     "herança",
+     "polimorfismo",
+     "programação orientada a objetos"
+    ]
+   },
+   {
+    "skill": "java",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "JFrame"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "paradigmas",
+    "inicio": 0,
+    "fim": 24,
+    "termo": "Linguagem de Programação"
+   },
+   {
+    "skill": "poo",
+    "inicio": 25,
+    "fim": 43,
+    "termo": "Orientada a Objeto"
+   },
+   {
+    "skill": "paradigmas",
+    "inicio": 57,
+    "fim": 82,
+    "termo": "paradigmas de programação"
+   },
+   {
+    "skill": "poo",
+    "inicio": 97,
+    "fim": 128,
+    "termo": "programação orientada a objetos"
+   },
+   {
+    "skill": "poo",
+    "inicio": 162,
+    "fim": 176,
+    "termo": "encapsulamento"
+   },
+   {
+    "skill": "poo",
+    "inicio": 261,
+    "fim": 268,
+    "termo": "herança"
+   },
+   {
+    "skill": "poo",
+    "inicio": 270,
+    "fim": 282,
+    "termo": "polimorfismo"
+   },
+   {
+    "skill": "java",
+    "inicio": 349,
+    "fim": 355,
+    "termo": "JFrame"
+   }
+  ]
+ },
+ "metodologia_cientifica": {
+  "texto": "Metodologia do Trabalho Científico. A ciência. O trabalho científico. A investigação científica. Metodologia da Pesquisa Jurídica. Métodos e técnicas de pesquisa na área jurídica e as possibilidades futuras. Ética na pesquisa. Organizar a pesquisa em função do tema jurídico escolhido. A elaboração do Projeto. Os trabalhos acadêmicos e as normas da ABNT. A produção textual científica.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "metodologia_pesquisa",
+    "ocorrencias": 9,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Metodologia da Pesquisa",
+     "Metodologia do Trabalho Científico",
+     "Métodos e técnicas de pesquisa",
+     "investigação científica",
+     "normas da ABNT",
+     "produção textual científica",
+     "trabalho científico",
+     "trabalhos acadêmicos",
+     "Ética na pesquisa"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "metodologia_pesquisa",
+    "inicio": 0,
+    "fim": 34,
+    "termo": "Metodologia do Trabalho Científico"
+   },
+   {
+    "skill": "metodologia_pesquisa",
+    "inicio": 49,
+    "fim": 68,
+    "termo": "trabalho científico"
+   },
+   {
+    "skill": "metodologia_pesquisa",
+    "inicio": 72,
+    "fim": 95,
+    "termo": "investigação científica"
+   },
+   {
+    "skill": "metodologia_pesquisa",
+    "inicio": 97,
+    "fim": 120,
+    "termo": "Metodologia da Pesquisa"
+   },
+   {
+    "skill": "metodologia_pesquisa",
+    "inicio": 131,
+    "fim": 161,
+    "termo": "Métodos e técnicas de pesquisa"
+   },
+   {
+    "skill": "metodologia_pesquisa",
+    "inicio": 208,
+    "fim": 225,
+    "termo": "Ética na pesquisa"
+   },
+   {
+    "skill": "metodologia_pesquisa",
+    "inicio": 314,
+    "fim": 334,
+    "termo": "trabalhos acadêmicos"
+   },
+   {
+    "skill": "metodologia_pesquisa",
+    "inicio": 340,
+    "fim": 354,
+    "termo": "normas da ABNT"
+   },
+   {
+    "skill": "metodologia_pesquisa",
+    "inicio": 358,
+    "fim": 385,
+    "termo": "produção textual científica"
+   }
+  ]
+ },
+ "sistemas_operacionais": {
+  "texto": "Sistemas Operacionais. História e funções dos Sistemas Operacionais. Estrutura dos Sistemas Operacionais. Conceito e tados de um processo. Concorrência. Métodos para comunicação sincronização. Escalonamento. Gerência de memória: paginação, segmentação e memória virtual. onoprocessamento e multiprocessamento. Alocação de recursos e deadlocks. Gerenciamento e arquivos. Gerenciamento de entrada/saída. Métodos de acesso. Fundamentos de Thread e multithread.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "sistemas_operacionais",
+    "ocorrencias": 15,
+    "camadas": [
+     "exata",
+     "fuzzy"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Concorrência",
+     "Escalonamento",
+     "Gerenciamento de entrada/saída",
+     "Gerenciamento e arquivos",
+     "Gerência de memória",
+     "Sistemas Operacionais",
+     "Thread",
+     "deadlocks",
+     "memória virtual",
+     "multiprocessamento",
+     "multithread",
+     "paginação",
+     "sincronização"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "sistemas_operacionais",
+    "inicio": 0,
+    "fim": 21,
+    "termo": "Sistemas Operacionais"
+   },
+   {
+    "skill": "sistemas_operacionais",
+    "inicio": 46,
+    "fim": 67,
+    "termo": "Sistemas Operacionais"
+   },
+   {
+    "skill": "sistemas_operacionais",
+    "inicio": 83,
+    "fim": 104,
+    "termo": "Sistemas Operacionais"
+   },
+   {
+    "skill": "sistemas_operacionais",
+    "inicio": 139,
+    "fim": 151,
+    "termo": "Concorrência"
+   },
+   {
+    "skill": "sistemas_operacionais",
+    "inicio": 178,
+    "fim": 191,
+    "termo": "sincronização"
+   },
+   {
+    "skill": "sistemas_operacionais",
+    "inicio": 193,
+    "fim": 206,
+    "termo": "Escalonamento"
+   },
+   {
+    "skill": "sistemas_operacionais",
+    "inicio": 208,
+    "fim": 227,
+    "termo": "Gerência de memória"
+   },
+   {
+    "skill": "sistemas_operacionais",
+    "inicio": 229,
+    "fim": 238,
+    "termo": "paginação"
+   },
+   {
+    "skill": "sistemas_operacionais",
+    "inicio": 254,
+    "fim": 269,
+    "termo": "memória virtual"
+   },
+   {
+    "skill": "sistemas_operacionais",
+    "inicio": 290,
+    "fim": 308,
+    "termo": "multiprocessamento"
+   },
+   {
+    "skill": "sistemas_operacionais",
+    "inicio": 333,
+    "fim": 342,
+    "termo": "deadlocks"
+   },
+   {
+    "skill": "sistemas_operacionais",
+    "inicio": 344,
+    "fim": 368,
+    "termo": "Gerenciamento e arquivos"
+   },
+   {
+    "skill": "sistemas_operacionais",
+    "inicio": 370,
+    "fim": 400,
+    "termo": "Gerenciamento de entrada/saída"
+   },
+   {
+    "skill": "sistemas_operacionais",
+    "inicio": 436,
+    "fim": 442,
+    "termo": "Thread"
+   },
+   {
+    "skill": "sistemas_operacionais",
+    "inicio": 445,
+    "fim": 456,
+    "termo": "multithread"
+   }
+  ]
+ },
+ "ihm": {
+  "texto": "Interface Homem-Máquina. Comunicação usuário-sistema. Comunicação projetista usuário. Engenharia cognitiva e semiótica de sistemas interativos. Estilos e paradigmas de interação: interfaces gráficas; manipulação direta, ícones e linguagens visuais. Modelagem de interfaces: cenarização; modelos de tarefas; modelos de usuário; modelos de interação. Concretização do projeto de interface: storyboarding e prototipação de interfaces; ferramentas de apoio a construção de interfaces. Avaliação de sistemas interativos: inspeção e testes com usuários; aspectos éticos na relação com os usuários. Acessibilidade: interfaces para dispositivos móveis; usabilidade universal.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "ux_ihc",
+    "ocorrencias": 15,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Acessibilidade",
+     "Avaliação de sistemas interativos",
+     "Interface Homem-Máquina",
+     "Modelagem de interfaces",
+     "interfaces gráficas",
+     "interfaces para dispositivos móveis",
+     "manipulação direta",
+     "modelos de tarefas",
+     "paradigmas de interação",
+     "projeto de interface",
+     "prototipação de interfaces",
+     "sistemas interativos",
+     "storyboarding",
+     "testes com usuários",
+     "usabilidade universal"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "ux_ihc",
+    "inicio": 0,
+    "fim": 23,
+    "termo": "Interface Homem-Máquina"
+   },
+   {
+    "skill": "ux_ihc",
+    "inicio": 122,
+    "fim": 142,
+    "termo": "sistemas interativos"
+   },
+   {
+    "skill": "ux_ihc",
+    "inicio": 154,
+    "fim": 177,
+    "termo": "paradigmas de interação"
+   },
+   {
+    "skill": "ux_ihc",
+    "inicio": 179,
+    "fim": 198,
+    "termo": "interfaces gráficas"
+   },
+   {
+    "skill": "ux_ihc",
+    "inicio": 200,
+    "fim": 218,
+    "termo": "manipulação direta"
+   },
+   {
+    "skill": "ux_ihc",
+    "inicio": 249,
+    "fim": 272,
+    "termo": "Modelagem de interfaces"
+   },
+   {
+    "skill": "ux_ihc",
+    "inicio": 287,
+    "fim": 305,
+    "termo": "modelos de tarefas"
+   },
+   {
+    "skill": "ux_ihc",
+    "inicio": 366,
+    "fim": 386,
+    "termo": "projeto de interface"
+   },
+   {
+    "skill": "ux_ihc",
+    "inicio": 388,
+    "fim": 401,
+    "termo": "storyboarding"
+   },
+   {
+    "skill": "ux_ihc",
+    "inicio": 404,
+    "fim": 430,
+    "termo": "prototipação de interfaces"
+   },
+   {
+    "skill": "ux_ihc",
+    "inicio": 481,
+    "fim": 514,
+    "termo": "Avaliação de sistemas interativos"
+   },
+   {
+    "skill": "ux_ihc",
+    "inicio": 527,
+    "fim": 546,
+    "termo": "testes com usuários"
+   },
+   {
+    "skill": "ux_ihc",
+    "inicio": 592,
+    "fim": 606,
+    "termo": "Acessibilidade"
+   },
+   {
+    "skill": "ux_ihc",
+    "inicio": 608,
+    "fim": 643,
+    "termo": "interfaces para dispositivos móveis"
+   },
+   {
+    "skill": "ux_ihc",
+    "inicio": 645,
+    "fim": 666,
+    "termo": "usabilidade universal"
+   }
+  ]
+ },
+ "modelagem_bd": {
+  "texto": "Modelagem e Projetos de Bancos de Dados. Projeto de banco de dados objeto-relacionais. Segurança dos dados: Violação de segurança; Encriptação. Processamento de transações: Definições de tipo de banco de dados; Propriedades das transações; Estados das transações; Transações concorrentes; Recuperação; Escalonamentos recuperáveis e irrecuperáveis; Controle de concorrência: Problemas relacionados ao controle de concorrência; Recuperação de falhas: Classificação das falhas; Estrutura de armazenamento. Modelagem de dados: etapas do projeto de um BD relacional, modelo Entidade-Relacionamento (ER), mapeamento ER- relacional. Teoria da Normalização: objetivo, dependências funcionais, formas normais, dicionário de dados, modelo relacional.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "sgbd",
+    "ocorrencias": 3,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "BD",
+     "Bancos de Dados",
+     "banco de dados"
+    ]
+   },
+   {
+    "skill": "modelagem_dados",
+    "ocorrencias": 10,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "ER",
+     "Modelagem de dados",
+     "Projeto de banco de dados",
+     "Teoria da Normalização",
+     "dependências funcionais",
+     "dicionário de dados",
+     "formas normais",
+     "mapeamento ER- relacional",
+     "modelo Entidade-Relacionamento",
+     "modelo relacional"
+    ]
+   },
+   {
+    "skill": "seguranca_informacao",
+    "ocorrencias": 3,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Encriptação",
+     "Segurança dos dados",
+     "Violação de segurança"
+    ]
+   },
+   {
+    "skill": "admin_bd",
+    "ocorrencias": 10,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Classificação das falhas",
+     "Controle de concorrência",
+     "Escalonamentos recuperáveis",
+     "Estados das transações",
+     "Estrutura de armazenamento",
+     "Processamento de transações",
+     "Propriedades das transações",
+     "Recuperação de falhas",
+     "Transações concorrentes",
+     "controle de concorrência"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "sgbd",
+    "inicio": 24,
+    "fim": 39,
+    "termo": "Bancos de Dados"
+   },
+   {
+    "skill": "modelagem_dados",
+    "inicio": 41,
+    "fim": 66,
+    "termo": "Projeto de banco de dados"
+   },
+   {
+    "skill": "seguranca_informacao",
+    "inicio": 87,
+    "fim": 106,
+    "termo": "Segurança dos dados"
+   },
+   {
+    "skill": "seguranca_informacao",
+    "inicio": 108,
+    "fim": 129,
+    "termo": "Violação de segurança"
+   },
+   {
+    "skill": "seguranca_informacao",
+    "inicio": 131,
+    "fim": 142,
+    "termo": "Encriptação"
+   },
+   {
+    "skill": "admin_bd",
+    "inicio": 144,
+    "fim": 171,
+    "termo": "Processamento de transações"
+   },
+   {
+    "skill": "sgbd",
+    "inicio": 195,
+    "fim": 209,
+    "termo": "banco de dados"
+   },
+   {
+    "skill": "admin_bd",
+    "inicio": 211,
+    "fim": 238,
+    "termo": "Propriedades das transações"
+   },
+   {
+    "skill": "admin_bd",
+    "inicio": 240,
+    "fim": 262,
+    "termo": "Estados das transações"
+   },
+   {
+    "skill": "admin_bd",
+    "inicio": 264,
+    "fim": 287,
+    "termo": "Transações concorrentes"
+   },
+   {
+    "skill": "admin_bd",
+    "inicio": 302,
+    "fim": 329,
+    "termo": "Escalonamentos recuperáveis"
+   },
+   {
+    "skill": "admin_bd",
+    "inicio": 348,
+    "fim": 372,
+    "termo": "Controle de concorrência"
+   },
+   {
+    "skill": "admin_bd",
+    "inicio": 400,
+    "fim": 424,
+    "termo": "controle de concorrência"
+   },
+   {
+    "skill": "admin_bd",
+    "inicio": 426,
+    "fim": 447,
+    "termo": "Recuperação de falhas"
+   },
+   {
+    "skill": "admin_bd",
+    "inicio": 449,
+    "fim": 473,
+    "termo": "Classificação das falhas"
+   },
+   {
+    "skill": "admin_bd",
+    "inicio": 475,
+    "fim": 501,
+    "termo": "Estrutura de armazenamento"
+   },
+   {
+    "skill": "modelagem_dados",
+    "inicio": 503,
+    "fim": 521,
+    "termo": "Modelagem de dados"
+   },
+   {
+    "skill": "sgbd",
+    "inicio": 547,
+    "fim": 549,
+    "termo": "BD"
+   },
+   {
+    "skill": "modelagem_dados",
+    "inicio": 562,
+    "fim": 592,
+    "termo": "modelo Entidade-Relacionamento"
+   },
+   {
+    "skill": "modelagem_dados",
+    "inicio": 594,
+    "fim": 596,
+    "termo": "ER"
+   },
+   {
+    "skill": "modelagem_dados",
+    "inicio": 599,
+    "fim": 624,
+    "termo": "mapeamento ER- relacional"
+   },
+   {
+    "skill": "modelagem_dados",
+    "inicio": 626,
+    "fim": 648,
+    "termo": "Teoria da Normalização"
+   },
+   {
+    "skill": "modelagem_dados",
+    "inicio": 660,
+    "fim": 683,
+    "termo": "dependências funcionais"
+   },
+   {
+    "skill": "modelagem_dados",
+    "inicio": 685,
+    "fim": 699,
+    "termo": "formas normais"
+   },
+   {
+    "skill": "modelagem_dados",
+    "inicio": 701,
+    "fim": 720,
+    "termo": "dicionário de dados"
+   },
+   {
+    "skill": "modelagem_dados",
+    "inicio": 722,
+    "fim": 739,
+    "termo": "modelo relacional"
+   }
+  ]
+ },
+ "redes": {
+  "texto": "Redes de Computadores. Conceitos básicos de redes: modelo de rede, camada de rede, protocolo, serviços, arquitetura; Noções de endereçamento; Tipos de rede: locais, de longa distância e metropolitanas; Funcionalidade específica das camadas do software de redes: níveis (1 a 7 – modelo ISO e 1 a 5 – modelo TCP/IP); Principais soluções tecnológicas para a camada física; Principais tecnologias de redes locais (LAN) e de redes de longa distância (WAN); Princípios de roteamento; Principais equipamentos de interconexão de redes - repetidores, pontes, roteadores e comportas; Funcionalidades básicas dos protocolos de aplicação; Princípios de segurança.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "redes",
+    "ocorrencias": 18,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "LAN",
+     "Redes de Computadores",
+     "TCP/IP",
+     "Tipos de rede",
+     "WAN",
+     "camada de rede",
+     "camada física",
+     "endereçamento",
+     "equipamentos de interconexão de redes",
+     "modelo ISO",
+     "pontes",
+     "protocolos de aplicação",
+     "redes",
+     "redes de longa distância",
+     "redes locais",
+     "roteadores",
+     "roteamento"
+    ]
+   },
+   {
+    "skill": "seguranca_informacao",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Princípios de segurança"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "redes",
+    "inicio": 0,
+    "fim": 21,
+    "termo": "Redes de Computadores"
+   },
+   {
+    "skill": "redes",
+    "inicio": 44,
+    "fim": 49,
+    "termo": "redes"
+   },
+   {
+    "skill": "redes",
+    "inicio": 67,
+    "fim": 81,
+    "termo": "camada de rede"
+   },
+   {
+    "skill": "redes",
+    "inicio": 127,
+    "fim": 140,
+    "termo": "endereçamento"
+   },
+   {
+    "skill": "redes",
+    "inicio": 142,
+    "fim": 155,
+    "termo": "Tipos de rede"
+   },
+   {
+    "skill": "redes",
+    "inicio": 255,
+    "fim": 260,
+    "termo": "redes"
+   },
+   {
+    "skill": "redes",
+    "inicio": 278,
+    "fim": 288,
+    "termo": "modelo ISO"
+   },
+   {
+    "skill": "redes",
+    "inicio": 306,
+    "fim": 312,
+    "termo": "TCP/IP"
+   },
+   {
+    "skill": "redes",
+    "inicio": 355,
+    "fim": 368,
+    "termo": "camada física"
+   },
+   {
+    "skill": "redes",
+    "inicio": 396,
+    "fim": 408,
+    "termo": "redes locais"
+   },
+   {
+    "skill": "redes",
+    "inicio": 410,
+    "fim": 413,
+    "termo": "LAN"
+   },
+   {
+    "skill": "redes",
+    "inicio": 420,
+    "fim": 444,
+    "termo": "redes de longa distância"
+   },
+   {
+    "skill": "redes",
+    "inicio": 446,
+    "fim": 449,
+    "termo": "WAN"
+   },
+   {
+    "skill": "redes",
+    "inicio": 466,
+    "fim": 476,
+    "termo": "roteamento"
+   },
+   {
+    "skill": "redes",
+    "inicio": 489,
+    "fim": 526,
+    "termo": "equipamentos de interconexão de redes"
+   },
+   {
+    "skill": "redes",
+    "inicio": 542,
+    "fim": 548,
+    "termo": "pontes"
+   },
+   {
+    "skill": "redes",
+    "inicio": 550,
+    "fim": 560,
+    "termo": "roteadores"
+   },
+   {
+    "skill": "redes",
+    "inicio": 602,
+    "fim": 625,
+    "termo": "protocolos de aplicação"
+   },
+   {
+    "skill": "seguranca_informacao",
+    "inicio": 627,
+    "fim": 650,
+    "termo": "Princípios de segurança"
+   }
+  ]
+ },
+ "socioambiental": {
+  "texto": "Responsabilidade Socioambiental e Sustentabilidade. Visão histórica e os conceitos ambientais. O paradigma do Desenvolvimento Sustentável. Ainovação e a responsabilidade socioambiental como estratégia de competitividade. Políticaspúblicas e responsabilidade socioambiental. A preservação do meio ambienteerecursosnaturais da Amazônia. Educação ambiental.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "sustentabilidade",
+    "ocorrencias": 6,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Desenvolvimento Sustentável",
+     "Educação ambiental",
+     "Responsabilidade Socioambiental",
+     "Sustentabilidade",
+     "responsabilidade socioambiental"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "sustentabilidade",
+    "inicio": 0,
+    "fim": 31,
+    "termo": "Responsabilidade Socioambiental"
+   },
+   {
+    "skill": "sustentabilidade",
+    "inicio": 34,
+    "fim": 50,
+    "termo": "Sustentabilidade"
+   },
+   {
+    "skill": "sustentabilidade",
+    "inicio": 110,
+    "fim": 137,
+    "termo": "Desenvolvimento Sustentável"
+   },
+   {
+    "skill": "sustentabilidade",
+    "inicio": 153,
+    "fim": 184,
+    "termo": "responsabilidade socioambiental"
+   },
+   {
+    "skill": "sustentabilidade",
+    "inicio": 241,
+    "fim": 272,
+    "termo": "responsabilidade socioambiental"
+   },
+   {
+    "skill": "sustentabilidade",
+    "inicio": 335,
+    "fim": 353,
+    "termo": "Educação ambiental"
+   }
+  ]
+ },
+ "requisitos_projetos": {
+  "texto": "Análise de Requisitos e Projetos. Requisitos de software,discussão sobre os processos envolvidos requisitos de software compreensãodos conceitos de requisitos de usuário e de sistema. Utilização de entrevistas e suas técnicas: Questionário, Observação direta, Sessões brainstorming, etnografia. Requisitos de software funcionais e não funcionais, especificação ou descrição requisitos. Detalhar o funcionamento (comportamento) ou diagramas comportamentais usando Unified Modeling Language (UML), de partes de um sistema ou processos de negócio relacionados a tal aplicação utilizando os diagramas que se adequam a essa categoria: Diagrama de caso de uso, Descrição de Caso de uso, Diagramas de atividade, diagrama de transição de estado.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "eng_requisitos",
+    "ocorrencias": 8,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Análise de Requisitos",
+     "Observação direta",
+     "Requisitos de software",
+     "Sessões brainstorming",
+     "etnografia",
+     "requisitos de software",
+     "requisitos de usuário"
+    ]
+   },
+   {
+    "skill": "uml_modelagem",
+    "ocorrencias": 7,
+    "camadas": [
+     "exata",
+     "fuzzy"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Descrição de Caso de uso",
+     "Diagrama de caso de uso",
+     "Diagramas de atividade",
+     "UML",
+     "Unified Modeling Language",
+     "diagrama de transição de estado",
+     "diagramas comportamentais"
+    ]
+   },
+   {
+    "skill": "negocios_processos",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "processos de negócio"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "eng_requisitos",
+    "inicio": 0,
+    "fim": 21,
+    "termo": "Análise de Requisitos"
+   },
+   {
+    "skill": "eng_requisitos",
+    "inicio": 34,
+    "fim": 56,
+    "termo": "Requisitos de software"
+   },
+   {
+    "skill": "eng_requisitos",
+    "inicio": 97,
+    "fim": 119,
+    "termo": "requisitos de software"
+   },
+   {
+    "skill": "eng_requisitos",
+    "inicio": 148,
+    "fim": 169,
+    "termo": "requisitos de usuário"
+   },
+   {
+    "skill": "eng_requisitos",
+    "inicio": 241,
+    "fim": 258,
+    "termo": "Observação direta"
+   },
+   {
+    "skill": "eng_requisitos",
+    "inicio": 260,
+    "fim": 281,
+    "termo": "Sessões brainstorming"
+   },
+   {
+    "skill": "eng_requisitos",
+    "inicio": 283,
+    "fim": 293,
+    "termo": "etnografia"
+   },
+   {
+    "skill": "eng_requisitos",
+    "inicio": 295,
+    "fim": 317,
+    "termo": "Requisitos de software"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 430,
+    "fim": 455,
+    "termo": "diagramas comportamentais"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 463,
+    "fim": 488,
+    "termo": "Unified Modeling Language"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 490,
+    "fim": 493,
+    "termo": "UML"
+   },
+   {
+    "skill": "negocios_processos",
+    "inicio": 523,
+    "fim": 543,
+    "termo": "processos de negócio"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 630,
+    "fim": 653,
+    "termo": "Diagrama de caso de uso"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 655,
+    "fim": 679,
+    "termo": "Descrição de Caso de uso"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 681,
+    "fim": 703,
+    "termo": "Diagramas de atividade"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 705,
+    "fim": 736,
+    "termo": "diagrama de transição de estado"
+   }
+  ]
+ },
+ "engenharia_software": {
+  "texto": "Engenharia de Software. Introdução à Engenharia de Software. Paradigmas da Engenharia de Software. Engenharia de Sistemas. Análise de Sistemas e Requisitos. Projeto de Software. Testes de Software. Manutenção de Software. Gerência de Configuração e Mudança. Processos de Desenvolvimento de Software. Modelo e Maturidade de Processo CMMI, Modelos de Software Publico Brasileiro, MPS BR, Modelagem de Processos, Linguagem de modelagem unificada (UML).",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "processos_software",
+    "ocorrencias": 9,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "CMMI",
+     "Engenharia de Sistemas",
+     "Engenharia de Software",
+     "Gerência de Configuração e Mudança",
+     "MPS BR",
+     "Manutenção de Software",
+     "Processos de Desenvolvimento de Software"
+    ]
+   },
+   {
+    "skill": "eng_requisitos",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Análise de Sistemas"
+    ]
+   },
+   {
+    "skill": "arquitetura_software",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Projeto de Software"
+    ]
+   },
+   {
+    "skill": "testes_software",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Testes de Software"
+    ]
+   },
+   {
+    "skill": "negocios_processos",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Modelagem de Processos"
+    ]
+   },
+   {
+    "skill": "uml_modelagem",
+    "ocorrencias": 2,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Linguagem de modelagem unificada",
+     "UML"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "processos_software",
+    "inicio": 0,
+    "fim": 22,
+    "termo": "Engenharia de Software"
+   },
+   {
+    "skill": "processos_software",
+    "inicio": 37,
+    "fim": 59,
+    "termo": "Engenharia de Software"
+   },
+   {
+    "skill": "processos_software",
+    "inicio": 75,
+    "fim": 97,
+    "termo": "Engenharia de Software"
+   },
+   {
+    "skill": "processos_software",
+    "inicio": 99,
+    "fim": 121,
+    "termo": "Engenharia de Sistemas"
+   },
+   {
+    "skill": "eng_requisitos",
+    "inicio": 123,
+    "fim": 142,
+    "termo": "Análise de Sistemas"
+   },
+   {
+    "skill": "arquitetura_software",
+    "inicio": 157,
+    "fim": 176,
+    "termo": "Projeto de Software"
+   },
+   {
+    "skill": "testes_software",
+    "inicio": 178,
+    "fim": 196,
+    "termo": "Testes de Software"
+   },
+   {
+    "skill": "processos_software",
+    "inicio": 198,
+    "fim": 220,
+    "termo": "Manutenção de Software"
+   },
+   {
+    "skill": "processos_software",
+    "inicio": 222,
+    "fim": 256,
+    "termo": "Gerência de Configuração e Mudança"
+   },
+   {
+    "skill": "processos_software",
+    "inicio": 258,
+    "fim": 298,
+    "termo": "Processos de Desenvolvimento de Software"
+   },
+   {
+    "skill": "processos_software",
+    "inicio": 332,
+    "fim": 336,
+    "termo": "CMMI"
+   },
+   {
+    "skill": "processos_software",
+    "inicio": 378,
+    "fim": 384,
+    "termo": "MPS BR"
+   },
+   {
+    "skill": "negocios_processos",
+    "inicio": 386,
+    "fim": 408,
+    "termo": "Modelagem de Processos"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 410,
+    "fim": 442,
+    "termo": "Linguagem de modelagem unificada"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 444,
+    "fim": 447,
+    "termo": "UML"
+   }
+  ]
+ },
+ "manipulacao_bd": {
+  "texto": "Manipulação de Bancos de Dados. Caracterização de linguagem para definição (DDL) e manipulação de dados (DML); análise do gerenciamento de transações; caracterização e comparação de abordagens não convencionais para bancos de dados; integração de bancos de dados e internet.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "sgbd",
+    "ocorrencias": 2,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Bancos de Dados",
+     "bancos de dados"
+    ]
+   },
+   {
+    "skill": "sql",
+    "ocorrencias": 4,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "DDL",
+     "DML",
+     "linguagem para definição",
+     "manipulação de dados"
+    ]
+   },
+   {
+    "skill": "admin_bd",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "gerenciamento de transações"
+    ]
+   },
+   {
+    "skill": "nosql",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "não convencionais para bancos de dados"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "sgbd",
+    "inicio": 15,
+    "fim": 30,
+    "termo": "Bancos de Dados"
+   },
+   {
+    "skill": "sql",
+    "inicio": 50,
+    "fim": 74,
+    "termo": "linguagem para definição"
+   },
+   {
+    "skill": "sql",
+    "inicio": 76,
+    "fim": 79,
+    "termo": "DDL"
+   },
+   {
+    "skill": "sql",
+    "inicio": 83,
+    "fim": 103,
+    "termo": "manipulação de dados"
+   },
+   {
+    "skill": "sql",
+    "inicio": 105,
+    "fim": 108,
+    "termo": "DML"
+   },
+   {
+    "skill": "admin_bd",
+    "inicio": 122,
+    "fim": 149,
+    "termo": "gerenciamento de transações"
+   },
+   {
+    "skill": "nosql",
+    "inicio": 193,
+    "fim": 231,
+    "termo": "não convencionais para bancos de dados"
+   },
+   {
+    "skill": "sgbd",
+    "inicio": 247,
+    "fim": 262,
+    "termo": "bancos de dados"
+   }
+  ]
+ },
+ "modelagem_sistemas": {
+  "texto": "Análise e Modelagem de Sistemas. Esta disciplina tem como princípio a compreensão e implementação dos conceitos de programação orientada a objeto, através da Unified Modeling Language (UML) para visualização, especificação, construção e documentação de artefatos que fazem uso de projetos complexos de software. Abordando Ciclo de Desenvolvimento de Software, Modelo de Processos de Negócio, Classes em nível de projeto envolvendo: Interface e Implementação, engenharia de Código, classes de Persistência. Diagrama de Atividade, Diagramas de Tempo e de Comunicação, Diagrama de Estado, Diagramas de Componentes e de Implantação, Diagrama de Estrutura Composta, Métrica e Documentação do Sistema.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "uml_modelagem",
+    "ocorrencias": 8,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Análise e Modelagem de Sistemas",
+     "Diagrama de Atividade",
+     "Diagrama de Estado",
+     "Diagrama de Estrutura Composta",
+     "Diagramas de Componentes",
+     "Diagramas de Tempo",
+     "UML",
+     "Unified Modeling Language"
+    ]
+   },
+   {
+    "skill": "poo",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "programação orientada a objeto"
+    ]
+   },
+   {
+    "skill": "processos_software",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Ciclo de Desenvolvimento de Software"
+    ]
+   },
+   {
+    "skill": "negocios_processos",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Processos de Negócio"
+    ]
+   },
+   {
+    "skill": "dev_software",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "engenharia de Código"
+    ]
+   },
+   {
+    "skill": "arquitetura_software",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "classes de Persistência"
+    ]
+   },
+   {
+    "skill": "comunicacao",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Documentação do Sistema"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "uml_modelagem",
+    "inicio": 0,
+    "fim": 31,
+    "termo": "Análise e Modelagem de Sistemas"
+   },
+   {
+    "skill": "poo",
+    "inicio": 115,
+    "fim": 145,
+    "termo": "programação orientada a objeto"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 158,
+    "fim": 183,
+    "termo": "Unified Modeling Language"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 185,
+    "fim": 188,
+    "termo": "UML"
+   },
+   {
+    "skill": "processos_software",
+    "inicio": 322,
+    "fim": 358,
+    "termo": "Ciclo de Desenvolvimento de Software"
+   },
+   {
+    "skill": "negocios_processos",
+    "inicio": 370,
+    "fim": 390,
+    "termo": "Processos de Negócio"
+   },
+   {
+    "skill": "dev_software",
+    "inicio": 459,
+    "fim": 479,
+    "termo": "engenharia de Código"
+   },
+   {
+    "skill": "arquitetura_software",
+    "inicio": 481,
+    "fim": 504,
+    "termo": "classes de Persistência"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 506,
+    "fim": 527,
+    "termo": "Diagrama de Atividade"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 529,
+    "fim": 547,
+    "termo": "Diagramas de Tempo"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 566,
+    "fim": 584,
+    "termo": "Diagrama de Estado"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 586,
+    "fim": 610,
+    "termo": "Diagramas de Componentes"
+   },
+   {
+    "skill": "uml_modelagem",
+    "inicio": 629,
+    "fim": 659,
+    "termo": "Diagrama de Estrutura Composta"
+   },
+   {
+    "skill": "comunicacao",
+    "inicio": 671,
+    "fim": 694,
+    "termo": "Documentação do Sistema"
+   }
+  ]
+ },
+ "empreendedorismo": {
+  "texto": "Empreendedorismo e Inovação. Características; oportunidades; desenvolvimento de atitudes empreendedoras. Novosparadigmas. Administração do crescimento da empresa. Prospecção Empresarial. Planode Negócios. Inovação e Criatividade. Modelagem Organizacional. Pesquisa de Mercado. Técnicas de Vendas. Técnicas de Negociação. Qualidade. Formação de Preços. Ferramentas Gerenciais. Marco Legal de Empresas. Linhas de Financiamento. Empreendedorismo Sustentável.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "empreendedorismo",
+    "ocorrencias": 13,
+    "camadas": [
+     "exata",
+     "fuzzy"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Administração do crescimento da empresa",
+     "Empreendedorismo Sustentável",
+     "Empreendedorismo e Inovação",
+     "Formação de Preços",
+     "Inovação e Criatividade",
+     "Linhas de Financiamento",
+     "Marco Legal de Empresas",
+     "Pesquisa de Mercado",
+     "Planode Negócios",
+     "Prospecção Empresarial",
+     "Técnicas de Negociação",
+     "Técnicas de Vendas",
+     "atitudes empreendedoras"
+    ]
+   },
+   {
+    "skill": "negocios_processos",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Modelagem Organizacional"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "empreendedorismo",
+    "inicio": 0,
+    "fim": 27,
+    "termo": "Empreendedorismo e Inovação"
+   },
+   {
+    "skill": "empreendedorismo",
+    "inicio": 80,
+    "fim": 103,
+    "termo": "atitudes empreendedoras"
+   },
+   {
+    "skill": "empreendedorismo",
+    "inicio": 122,
+    "fim": 161,
+    "termo": "Administração do crescimento da empresa"
+   },
+   {
+    "skill": "empreendedorismo",
+    "inicio": 163,
+    "fim": 185,
+    "termo": "Prospecção Empresarial"
+   },
+   {
+    "skill": "empreendedorismo",
+    "inicio": 187,
+    "fim": 203,
+    "termo": "Planode Negócios"
+   },
+   {
+    "skill": "empreendedorismo",
+    "inicio": 205,
+    "fim": 228,
+    "termo": "Inovação e Criatividade"
+   },
+   {
+    "skill": "negocios_processos",
+    "inicio": 230,
+    "fim": 254,
+    "termo": "Modelagem Organizacional"
+   },
+   {
+    "skill": "empreendedorismo",
+    "inicio": 256,
+    "fim": 275,
+    "termo": "Pesquisa de Mercado"
+   },
+   {
+    "skill": "empreendedorismo",
+    "inicio": 277,
+    "fim": 295,
+    "termo": "Técnicas de Vendas"
+   },
+   {
+    "skill": "empreendedorismo",
+    "inicio": 297,
+    "fim": 319,
+    "termo": "Técnicas de Negociação"
+   },
+   {
+    "skill": "empreendedorismo",
+    "inicio": 332,
+    "fim": 350,
+    "termo": "Formação de Preços"
+   },
+   {
+    "skill": "empreendedorismo",
+    "inicio": 376,
+    "fim": 399,
+    "termo": "Marco Legal de Empresas"
+   },
+   {
+    "skill": "empreendedorismo",
+    "inicio": 401,
+    "fim": 424,
+    "termo": "Linhas de Financiamento"
+   },
+   {
+    "skill": "empreendedorismo",
+    "inicio": 426,
+    "fim": 454,
+    "termo": "Empreendedorismo Sustentável"
+   }
+  ]
+ },
+ "gerenciamento_projetos": {
+  "texto": "Gerenciamento de Projetos. Conceito de projeto. Histórico. Ciclo de Vida do Projeto. O PMBOK. Áreas de Conhecimento do PMBOK. Gerenciamento de Projeto. Objetivos da Gerência de Projetos. O Gerente de projetos. Planejamento do Projeto. Produção de Artefatos. Análise de requisitos. Ferramentas de Gestão e Controle. Gestão de Equipes. Gestão dos Custos. Gestão do Cronograma. Fechamento do Projeto. Gestão de Portfólio.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "gestao_projetos",
+    "ocorrencias": 14,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Ciclo de Vida do Projeto",
+     "Fechamento do Projeto",
+     "Ferramentas de Gestão e Controle",
+     "Gerenciamento de Projeto",
+     "Gerenciamento de Projetos",
+     "Gerente de projetos",
+     "Gerência de Projetos",
+     "Gestão de Equipes",
+     "Gestão de Portfólio",
+     "Gestão do Cronograma",
+     "Gestão dos Custos",
+     "PMBOK",
+     "Planejamento do Projeto"
+    ]
+   },
+   {
+    "skill": "eng_requisitos",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Análise de requisitos"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "gestao_projetos",
+    "inicio": 0,
+    "fim": 25,
+    "termo": "Gerenciamento de Projetos"
+   },
+   {
+    "skill": "gestao_projetos",
+    "inicio": 59,
+    "fim": 83,
+    "termo": "Ciclo de Vida do Projeto"
+   },
+   {
+    "skill": "gestao_projetos",
+    "inicio": 87,
+    "fim": 92,
+    "termo": "PMBOK"
+   },
+   {
+    "skill": "gestao_projetos",
+    "inicio": 119,
+    "fim": 124,
+    "termo": "PMBOK"
+   },
+   {
+    "skill": "gestao_projetos",
+    "inicio": 126,
+    "fim": 150,
+    "termo": "Gerenciamento de Projeto"
+   },
+   {
+    "skill": "gestao_projetos",
+    "inicio": 165,
+    "fim": 185,
+    "termo": "Gerência de Projetos"
+   },
+   {
+    "skill": "gestao_projetos",
+    "inicio": 189,
+    "fim": 208,
+    "termo": "Gerente de projetos"
+   },
+   {
+    "skill": "gestao_projetos",
+    "inicio": 210,
+    "fim": 233,
+    "termo": "Planejamento do Projeto"
+   },
+   {
+    "skill": "eng_requisitos",
+    "inicio": 258,
+    "fim": 279,
+    "termo": "Análise de requisitos"
+   },
+   {
+    "skill": "gestao_projetos",
+    "inicio": 281,
+    "fim": 313,
+    "termo": "Ferramentas de Gestão e Controle"
+   },
+   {
+    "skill": "gestao_projetos",
+    "inicio": 315,
+    "fim": 332,
+    "termo": "Gestão de Equipes"
+   },
+   {
+    "skill": "gestao_projetos",
+    "inicio": 334,
+    "fim": 351,
+    "termo": "Gestão dos Custos"
+   },
+   {
+    "skill": "gestao_projetos",
+    "inicio": 353,
+    "fim": 373,
+    "termo": "Gestão do Cronograma"
+   },
+   {
+    "skill": "gestao_projetos",
+    "inicio": 375,
+    "fim": 396,
+    "termo": "Fechamento do Projeto"
+   },
+   {
+    "skill": "gestao_projetos",
+    "inicio": 398,
+    "fim": 417,
+    "termo": "Gestão de Portfólio"
+   }
+  ]
+ },
+ "compiladores": {
+  "texto": "Compiladores. Compiladores e Interpretadores. Análise Léxica e Sintática. Tabelas de Símbolos. Esquemas de Tradução. Ambientes de Tempo de Execução. Representação Intermediária. Análise Semântica. Geração de Código. Otimização de Código. Bibliotecas e Compilação em Separado.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "compiladores",
+    "ocorrencias": 12,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Ambientes de Tempo de Execução",
+     "Análise Léxica",
+     "Análise Semântica",
+     "Compiladores",
+     "Compilação em Separado",
+     "Esquemas de Tradução",
+     "Geração de Código",
+     "Interpretadores",
+     "Otimização de Código",
+     "Representação Intermediária",
+     "Tabelas de Símbolos"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "compiladores",
+    "inicio": 0,
+    "fim": 12,
+    "termo": "Compiladores"
+   },
+   {
+    "skill": "compiladores",
+    "inicio": 14,
+    "fim": 26,
+    "termo": "Compiladores"
+   },
+   {
+    "skill": "compiladores",
+    "inicio": 29,
+    "fim": 44,
+    "termo": "Interpretadores"
+   },
+   {
+    "skill": "compiladores",
+    "inicio": 46,
+    "fim": 60,
+    "termo": "Análise Léxica"
+   },
+   {
+    "skill": "compiladores",
+    "inicio": 74,
+    "fim": 93,
+    "termo": "Tabelas de Símbolos"
+   },
+   {
+    "skill": "compiladores",
+    "inicio": 95,
+    "fim": 115,
+    "termo": "Esquemas de Tradução"
+   },
+   {
+    "skill": "compiladores",
+    "inicio": 117,
+    "fim": 147,
+    "termo": "Ambientes de Tempo de Execução"
+   },
+   {
+    "skill": "compiladores",
+    "inicio": 149,
+    "fim": 176,
+    "termo": "Representação Intermediária"
+   },
+   {
+    "skill": "compiladores",
+    "inicio": 178,
+    "fim": 195,
+    "termo": "Análise Semântica"
+   },
+   {
+    "skill": "compiladores",
+    "inicio": 197,
+    "fim": 214,
+    "termo": "Geração de Código"
+   },
+   {
+    "skill": "compiladores",
+    "inicio": 216,
+    "fim": 236,
+    "termo": "Otimização de Código"
+   },
+   {
+    "skill": "compiladores",
+    "inicio": 252,
+    "fim": 274,
+    "termo": "Compilação em Separado"
+   }
+  ]
+ },
+ "legislacao_etica": {
+  "texto": "Legislação e Ética Profissional. Legislação e normas referentes ao exercício profissional. Políticas e programas de âmbito local, municipal, estadual, regional e federal, relacionados às atividades profissionais. Associações, Conselhos e Sindicatos de Classe. Estudo de casos e aplicações práticas. Legislação e normas relacionadas com os temas abordados (âmbitos federal, regional, estadual e municipal). Políticas, planos, programas e projetos relacionados com os temas abordados (âmbitos federal, regional, estadual e municipal).",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "etica_lgpd",
+    "ocorrencias": 6,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Associações, Conselhos e Sindicatos de Classe",
+     "Legislação",
+     "exercício profissional",
+     "Ética Profissional"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "etica_lgpd",
+    "inicio": 0,
+    "fim": 10,
+    "termo": "Legislação"
+   },
+   {
+    "skill": "etica_lgpd",
+    "inicio": 13,
+    "fim": 31,
+    "termo": "Ética Profissional"
+   },
+   {
+    "skill": "etica_lgpd",
+    "inicio": 33,
+    "fim": 43,
+    "termo": "Legislação"
+   },
+   {
+    "skill": "etica_lgpd",
+    "inicio": 67,
+    "fim": 89,
+    "termo": "exercício profissional"
+   },
+   {
+    "skill": "etica_lgpd",
+    "inicio": 213,
+    "fim": 258,
+    "termo": "Associações, Conselhos e Sindicatos de Classe"
+   },
+   {
+    "skill": "etica_lgpd",
+    "inicio": 299,
+    "fim": 309,
+    "termo": "Legislação"
+   }
+  ]
+ },
+ "paradigmas_linguagens": {
+  "texto": "Fundamentos, Paradigmas e Linguagens de Programação. Características e tipos de aplicações dos diferentes paradigmas de linguagens de programação: imperativo, orientado a objetos, funcional e lógico. Conceitos de linguagens Script e linguagem robótica.",
+  "fonte_ementa": "programa_oficial",
+  "habilidades": [
+   {
+    "skill": "paradigmas",
+    "ocorrencias": 3,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Paradigmas e Linguagens de Programação",
+     "linguagens Script",
+     "paradigmas de linguagens de programação"
+    ]
+   },
+   {
+    "skill": "poo",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "orientado a objetos"
+    ]
+   },
+   {
+    "skill": "automacao_industrial",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "robótica"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "paradigmas",
+    "inicio": 13,
+    "fim": 51,
+    "termo": "Paradigmas e Linguagens de Programação"
+   },
+   {
+    "skill": "paradigmas",
+    "inicio": 106,
+    "fim": 145,
+    "termo": "paradigmas de linguagens de programação"
+   },
+   {
+    "skill": "poo",
+    "inicio": 159,
+    "fim": 178,
+    "termo": "orientado a objetos"
+   },
+   {
+    "skill": "paradigmas",
+    "inicio": 213,
+    "fim": 230,
+    "termo": "linguagens Script"
+   },
+   {
+    "skill": "automacao_industrial",
+    "inicio": 243,
+    "fim": 251,
+    "termo": "robótica"
+   }
+  ]
+ },
+ "desenvolvimento_sistemas_2": {
+  "texto": "Desenvolvimento de Sistemas II. Desenvolvimento de sistemas de software: projeto, implementação, integração e implantação de aplicações com persistência em banco de dados.",
+  "fonte_ementa": "referencia",
+  "habilidades": [
+   {
+    "skill": "dev_software",
+    "ocorrencias": 2,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Desenvolvimento de Sistemas",
+     "Desenvolvimento de sistemas"
+    ]
+   },
+   {
+    "skill": "sgbd",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "banco de dados"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "dev_software",
+    "inicio": 0,
+    "fim": 27,
+    "termo": "Desenvolvimento de Sistemas"
+   },
+   {
+    "skill": "dev_software",
+    "inicio": 32,
+    "fim": 59,
+    "termo": "Desenvolvimento de sistemas"
+   },
+   {
+    "skill": "sgbd",
+    "inicio": 156,
+    "fim": 170,
+    "termo": "banco de dados"
+   }
+  ]
+ },
+ "estagio": {
+  "texto": "Estágio Supervisionado. Atividades práticas supervisionadas em ambiente profissional da área de computação. Elaboração de relatório técnico de estágio.",
+  "fonte_ementa": "referencia",
+  "habilidades": [
+   {
+    "skill": "comunicacao",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "relatório técnico"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "comunicacao",
+    "inicio": 122,
+    "fim": 139,
+    "termo": "relatório técnico"
+   }
+  ]
+ },
+ "inteligencia_artificial": {
+  "texto": "Inteligência Artificial. Histórico e fundamentos da inteligência artificial. Agentes inteligentes. Resolução de problemas por busca e busca heurística. Representação do conhecimento. Noções de aprendizado de máquina.",
+  "fonte_ementa": "referencia",
+  "habilidades": [
+   {
+    "skill": "ia_fundamentos",
+    "ocorrencias": 5,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Agentes inteligentes",
+     "Inteligência Artificial",
+     "Representação do conhecimento",
+     "busca heurística",
+     "inteligência artificial"
+    ]
+   },
+   {
+    "skill": "machine_learning",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "aprendizado de máquina"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "ia_fundamentos",
+    "inicio": 0,
+    "fim": 23,
+    "termo": "Inteligência Artificial"
+   },
+   {
+    "skill": "ia_fundamentos",
+    "inicio": 52,
+    "fim": 75,
+    "termo": "inteligência artificial"
+   },
+   {
+    "skill": "ia_fundamentos",
+    "inicio": 77,
+    "fim": 97,
+    "termo": "Agentes inteligentes"
+   },
+   {
+    "skill": "ia_fundamentos",
+    "inicio": 134,
+    "fim": 150,
+    "termo": "busca heurística"
+   },
+   {
+    "skill": "ia_fundamentos",
+    "inicio": 152,
+    "fim": 181,
+    "termo": "Representação do conhecimento"
+   },
+   {
+    "skill": "machine_learning",
+    "inicio": 193,
+    "fim": 215,
+    "termo": "aprendizado de máquina"
+   }
+  ]
+ },
+ "tcc": {
+  "texto": "Trabalho de Conclusão de Curso. Desenvolvimento de trabalho científico orientado na área de computação. Metodologia científica aplicada. Redação de artigo científico segundo as normas da ABNT. Apresentação pública do trabalho.",
+  "fonte_ementa": "referencia",
+  "habilidades": [
+   {
+    "skill": "metodologia_pesquisa",
+    "ocorrencias": 4,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Metodologia científica",
+     "artigo científico",
+     "normas da ABNT",
+     "trabalho científico"
+    ]
+   },
+   {
+    "skill": "comunicacao",
+    "ocorrencias": 1,
+    "camadas": [
+     "exata"
+    ],
+    "escore_max": 1.0,
+    "termos": [
+     "Redação"
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "skill": "metodologia_pesquisa",
+    "inicio": 51,
+    "fim": 70,
+    "termo": "trabalho científico"
+   },
+   {
+    "skill": "metodologia_pesquisa",
+    "inicio": 104,
+    "fim": 126,
+    "termo": "Metodologia científica"
+   },
+   {
+    "skill": "comunicacao",
+    "inicio": 137,
+    "fim": 144,
+    "termo": "Redação"
+   },
+   {
+    "skill": "metodologia_pesquisa",
+    "inicio": 148,
+    "fim": 165,
+    "termo": "artigo científico"
+   },
+   {
+    "skill": "metodologia_pesquisa",
+    "inicio": 177,
+    "fim": 191,
+    "termo": "normas da ABNT"
+   }
+  ]
+ },
+ "optativa": {
+  "texto": "Optativa. Conteúdo variável conforme a disciplina optativa cursada.",
+  "fonte_ementa": "referencia",
+  "habilidades": [],
+  "evidencias": []
+ }
+}

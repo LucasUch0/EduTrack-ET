@@ -1,0 +1,36 @@
+{
+ "tipos_de_no": {
+  "disciplina": {
+   "nos": 32,
+   "atributos": 26,
+   "isolados": 2,
+   "ids_isolados": [
+    "sociologia_antropologia",
+    "optativa"
+   ]
+  },
+  "skill": {
+   "nos": 76,
+   "atributos": 26,
+   "isolados": 2,
+   "ids_isolados": [
+    "big_data",
+    "teoria_grafos"
+   ]
+  },
+  "vaga": {
+   "nos": 67,
+   "atributos": 22,
+   "isolados": 0,
+   "ids_isolados": []
+  }
+ },
+ "tipos_de_aresta": {
+  "disciplina-ensina-skill": 64,
+  "vaga-exige-skill": 517,
+  "disciplina-pre_requisito-disciplina": 15,
+  "skill-coocorrencia-skill": 676
+ },
+ "problemas": [],
+ "valido": true
+}

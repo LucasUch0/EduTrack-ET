@@ -1,0 +1,45 @@
+{
+ "metodologia": "Green Algorithms (Lannelongue et al., 2021); fator médio do SIN (MCTI)",
+ "etapas": [
+  {
+   "etapa": "construcao_do_grafo",
+   "duracao_s": 0.328,
+   "cpu_s": 0.5496,
+   "nucleos_logicos": 2,
+   "uso_medio_cpu": 0.8376,
+   "energia_kwh": 2.3237830932062335e-06,
+   "co2_g": 8.946564908843999e-05,
+   "potencia_nucleo_w": 15.0,
+   "fator_kgco2_kwh": 0.0385,
+   "plataforma": "Linux x86_64"
+  },
+  {
+   "etapa": "treino_modelo_final",
+   "duracao_s": 0.2378,
+   "cpu_s": 0.2377,
+   "nucleos_logicos": 2,
+   "uso_medio_cpu": 0.4998,
+   "energia_kwh": 1.0151423964270368e-06,
+   "co2_g": 3.9082982262440916e-05,
+   "potencia_nucleo_w": 15.0,
+   "fator_kgco2_kwh": 0.0385,
+   "plataforma": "Linux x86_64"
+  },
+  {
+   "etapa": "inferencia_modelo_final",
+   "duracao_s": 0.0007,
+   "cpu_s": 0.0007,
+   "nucleos_logicos": 2,
+   "uso_medio_cpu": 0.5017,
+   "energia_kwh": 3.1887624847155076e-09,
+   "co2_g": 1.2276735566154705e-07,
+   "potencia_nucleo_w": 15.0,
+   "fator_kgco2_kwh": 0.0385,
+   "plataforma": "Linux x86_64"
+  }
+ ],
+ "total_energia_kwh": 3.342114252117986e-06,
+ "total_energia_wh": 0.003342114252117986,
+ "total_co2_g": 0.00012867139870654246,
+ "total_duracao_s": 0.5665
+}

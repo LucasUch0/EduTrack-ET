@@ -1,0 +1,9 @@
+/* Fontes servidas pelo próprio EduTrack (subconjunto latino), sem chamadas a serviços de terceiros.
+   Inter e JetBrains Mono: SIL Open Font License 1.1 (textos em ../fonts/). */
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('../fonts/Inter-Regular.woff') format('woff')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;src:url('../fonts/Inter-Medium.woff') format('woff')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url('../fonts/Inter-SemiBold.woff') format('woff')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('../fonts/Inter-Bold.woff') format('woff')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:800;font-display:swap;src:url('../fonts/Inter-ExtraBold.woff') format('woff')}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400 500;font-display:swap;src:url('../fonts/JetBrainsMono-Regular.woff') format('woff')}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:600 700;font-display:swap;src:url('../fonts/JetBrainsMono-Bold.woff') format('woff')}

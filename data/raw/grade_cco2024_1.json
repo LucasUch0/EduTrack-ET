@@ -1,0 +1,209 @@
+{
+ "curriculo": "CCO-2024/1",
+ "curso": "Ciência da Computação — Centro Universitário FAMETRO (Manaus/AM)",
+ "disciplinas_esperadas": 39,
+ "fontes": {
+  "programa_oficial": "Programa de Disciplina emitido pelo portal acadêmico da FAMETRO em 08/10/2026 (data/raw/programa_disciplinas_cco2024_1.pdf) — 18 disciplinas do 3º ao 7º período com ementa, carga horária, créditos e bibliografia.",
+  "historico": "Lista de disciplinas do 1º, 2º e 8º períodos informada pelos autores a partir do histórico acadêmico em 08/10/2026 (sem ementa oficial disponível nesta versão)."
+ },
+ "observacoes": [
+  "A grade integral tem 39 disciplinas; esta versão identifica 32 (18 com Programa de Disciplina oficial e 14 informadas a partir do histórico). As 7 restantes não constam das fontes desta versão e serão incluídas quando o respectivo Programa de Disciplina for anexado (RF10a).",
+  "ALGORITMOS E TÉCNICAS DE PROGRAMAÇÃO aparece no 1º período no histórico informado e no 3º período no Programa de Disciplina oficial (código 24692). Prevalece o documento oficial; o valor informado fica registrado em 'periodo_historico'.",
+  "DESENVOLVIMENTO DE SISTEMAS II pressupõe uma disciplina 'I' que não consta das fontes desta versão."
+ ],
+ "disciplinas": [
+  {
+   "id": "ingles",
+   "nome": "INGLÊS",
+   "periodo": 1,
+   "fonte": "historico"
+  },
+  {
+   "id": "leitura_producao_textos",
+   "nome": "LEITURA, INTERPRETAÇÃO E PRODUÇÃO DE TEXTOS",
+   "periodo": 1,
+   "fonte": "historico"
+  },
+  {
+   "id": "logica_matematica_discreta",
+   "nome": "LÓGICA MATEMÁTICA E MATEMÁTICA DISCRETA",
+   "periodo": 1,
+   "fonte": "historico"
+  },
+  {
+   "id": "probabilidade_estatistica",
+   "nome": "PROBABILIDADE E ESTATÍSTICA",
+   "periodo": 1,
+   "fonte": "historico"
+  },
+  {
+   "id": "aed1",
+   "nome": "ALGORITMO E ESTRUTURA DE DADOS I",
+   "periodo": 2,
+   "fonte": "historico"
+  },
+  {
+   "id": "arquitetura_computadores",
+   "nome": "ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES",
+   "periodo": 2,
+   "fonte": "historico"
+  },
+  {
+   "id": "calculo",
+   "nome": "CÁLCULO",
+   "periodo": 2,
+   "fonte": "historico"
+  },
+  {
+   "id": "programacao_estruturada",
+   "nome": "LÓGICA E LINGUAGEM DE PROGRAMAÇÃO ESTRUTURADA",
+   "periodo": 2,
+   "fonte": "historico"
+  },
+  {
+   "id": "sociologia_antropologia",
+   "nome": "SOCIOLOGIA E ANTROPOLOGIA",
+   "periodo": 2,
+   "fonte": "historico"
+  },
+  {
+   "id": "aed2",
+   "nome": "ALGORITMO E ESTRUTURA DE DADOS II",
+   "periodo": 3,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "algoritmos_tecnicas_programacao",
+   "nome": "ALGORITMOS E TÉCNICAS DE PROGRAMAÇÃO",
+   "periodo": 3,
+   "periodo_historico": 1,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "programacao_oo",
+   "nome": "LINGUAGEM DE PROGRAMAÇÃO ORIENTADA A OBJETO",
+   "periodo": 3,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "metodologia_cientifica",
+   "nome": "METODOLOGIA DO TRABALHO CIENTÍFICO",
+   "periodo": 3,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "sistemas_operacionais",
+   "nome": "SISTEMAS OPERACIONAIS",
+   "periodo": 3,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "ihm",
+   "nome": "INTERFACE HOMEM-MÁQUINA",
+   "periodo": 4,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "modelagem_bd",
+   "nome": "MODELAGEM E PROJETOS DE BANCOS DE DADOS",
+   "periodo": 4,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "redes",
+   "nome": "REDES DE COMPUTADORES",
+   "periodo": 4,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "socioambiental",
+   "nome": "RESPONSABILIDADE SOCIOAMBIENTAL E SUSTENTABILIDADE",
+   "periodo": 4,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "requisitos_projetos",
+   "nome": "ANÁLISE DE REQUISITOS E PROJETOS",
+   "periodo": 5,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "engenharia_software",
+   "nome": "ENGENHARIA DE SOFTWARE",
+   "periodo": 5,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "manipulacao_bd",
+   "nome": "MANIPULAÇÃO DE BANCOS DE DADOS",
+   "periodo": 5,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "modelagem_sistemas",
+   "nome": "ANÁLISE E MODELAGEM DE SISTEMAS",
+   "periodo": 6,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "empreendedorismo",
+   "nome": "EMPREENDEDORISMO E INOVAÇÃO",
+   "periodo": 6,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "gerenciamento_projetos",
+   "nome": "GERENCIAMENTO DE PROJETOS",
+   "periodo": 6,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "compiladores",
+   "nome": "COMPILADORES",
+   "periodo": 7,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "legislacao_etica",
+   "nome": "LEGISLAÇÃO E ÉTICA PROFISSIONAL",
+   "periodo": 7,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "paradigmas_linguagens",
+   "nome": "FUNDAMENTOS, PARADIGMAS E LINGUAGENS DE PROGRAMAÇÃO",
+   "periodo": 7,
+   "fonte": "programa_oficial"
+  },
+  {
+   "id": "desenvolvimento_sistemas_2",
+   "nome": "DESENVOLVIMENTO DE SISTEMAS II",
+   "periodo": 8,
+   "fonte": "historico"
+  },
+  {
+   "id": "estagio",
+   "nome": "ESTÁGIO SUPERVISIONADO",
+   "periodo": 8,
+   "fonte": "historico"
+  },
+  {
+   "id": "inteligencia_artificial",
+   "nome": "INTELIGÊNCIA ARTIFICIAL",
+   "periodo": 8,
+   "fonte": "historico"
+  },
+  {
+   "id": "tcc",
+   "nome": "TRABALHO DE CONCLUSÃO DE CURSO",
+   "periodo": 8,
+   "fonte": "historico"
+  },
+  {
+   "id": "optativa",
+   "nome": "OPTATIVA",
+   "periodo": 8,
+   "fonte": "historico"
+  }
+ ]
+}

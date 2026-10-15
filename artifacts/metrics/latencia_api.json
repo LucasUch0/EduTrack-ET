@@ -1,0 +1,20 @@
+{
+ "medido_em": "2026-10-09T12:59:29+00:00",
+ "url": "http://127.0.0.1:8000",
+ "requisicoes": 30,
+ "rota": "POST /api/trilha",
+ "ponta_a_ponta_ms": {
+  "p50": 6.332180999834236,
+  "p95": 10.034137600177928,
+  "max": 10.765522999918176,
+  "media": 6.677564000028724
+ },
+ "no_servidor_ms": {
+  "p50": 4.2,
+  "p95": 8.015,
+  "max": 8.6
+ },
+ "limite_RNF02_ms": 3000,
+ "atende_RNF02": true,
+ "plataforma": "Linux x86_64, Python 3.13.16"
+}

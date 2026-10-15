@@ -1,0 +1,42 @@
+{
+ "curriculo": "CCO-2024/1",
+ "disciplinas_identificadas": 32,
+ "disciplinas_esperadas": 39,
+ "divergencia_contagem": true,
+ "faltantes": 7,
+ "periodos_presentes": 8,
+ "periodos_esperados": 8,
+ "disciplinas_por_periodo": {
+  "1": 4,
+  "2": 5,
+  "3": 5,
+  "4": 4,
+  "5": 3,
+  "6": 3,
+  "7": 3,
+  "8": 5
+ },
+ "com_programa_oficial": 18,
+ "com_ementa_referencia": 14,
+ "sem_ementa": 0,
+ "extraidas_do_pdf": 18,
+ "blocos_espurios_descartados": 0,
+ "divergencias_de_periodo": [],
+ "sem_programa_oficial": [
+  "INGLÊS",
+  "LEITURA, INTERPRETAÇÃO E PRODUÇÃO DE TEXTOS",
+  "LÓGICA MATEMÁTICA E MATEMÁTICA DISCRETA",
+  "PROBABILIDADE E ESTATÍSTICA",
+  "ALGORITMO E ESTRUTURA DE DADOS I",
+  "ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES",
+  "CÁLCULO",
+  "LÓGICA E LINGUAGEM DE PROGRAMAÇÃO ESTRUTURADA",
+  "SOCIOLOGIA E ANTROPOLOGIA",
+  "DESENVOLVIMENTO DE SISTEMAS II",
+  "ESTÁGIO SUPERVISIONADO",
+  "INTELIGÊNCIA ARTIFICIAL",
+  "TRABALHO DE CONCLUSÃO DE CURSO",
+  "OPTATIVA"
+ ],
+ "declaracao_RNF21": "8 de 8 períodos e 32 de 39 disciplinas"
+}

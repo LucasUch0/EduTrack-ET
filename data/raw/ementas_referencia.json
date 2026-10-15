@@ -1,0 +1,20 @@
+{
+  "descricao": "Ementas de referência para as disciplinas sem Programa de Disciplina oficial nesta versão. Redigidas pelos autores de forma conservadora a partir do título da disciplina, listando apenas o conteúdo nuclear que o título implica. São marcadas como fonte_ementa='referencia' em todo o pipeline e devem ser substituídas pelo programa oficial assim que ele for anexado (basta colocar o PDF em data/raw e rodar o pipeline).",
+  "data": "2026-10-08",
+  "ementas": {
+    "ingles": "Leitura de textos técnicos em língua inglesa. Vocabulário técnico da área de computação. Estratégias de leitura instrumental. Estruturas gramaticais básicas da língua inglesa.",
+    "leitura_producao_textos": "Leitura e interpretação de textos. Gêneros textuais. Coesão e coerência textual. Produção de textos acadêmicos e técnicos. Redação técnica e revisão textual.",
+    "logica_matematica_discreta": "Lógica proposicional e lógica de predicados. Tabelas-verdade e métodos de prova. Teoria dos conjuntos. Relações e funções. Indução matemática. Álgebra booleana. Noções de combinatória.",
+    "probabilidade_estatistica": "Estatística descritiva. Probabilidade. Variáveis aleatórias e distribuições de probabilidade. Amostragem. Inferência estatística e testes de hipótese. Correlação e regressão linear.",
+    "aed1": "Tipos abstratos de dados. Vetores e registros. Ponteiros e alocação dinâmica de memória. Recursividade. Listas encadeadas, pilhas e filas. Algoritmos de ordenação e busca. Noções de análise de algoritmos.",
+    "arquitetura_computadores": "Sistemas de numeração e conversão de bases. Circuitos digitais e portas lógicas. Organização do processador (CPU) e conjunto de instruções. Linguagem de montagem. Hierarquia de memória e memória cache. Dispositivos de entrada e saída.",
+    "calculo": "Funções reais. Limites e continuidade. Derivadas e aplicações. Integrais e técnicas de integração. Aplicações do cálculo diferencial e integral.",
+    "programacao_estruturada": "Lógica de programação. Programação estruturada. Tipos de dados, operadores e expressões. Estruturas condicionais e de repetição. Modularização com funções. Vetores e cadeias de caracteres.",
+    "sociologia_antropologia": "Fundamentos de sociologia e antropologia. Cultura, sociedade e identidade. Diversidade e relações étnico-raciais. Trabalho e tecnologia na sociedade contemporânea.",
+    "desenvolvimento_sistemas_2": "Desenvolvimento de sistemas de software: projeto, implementação, integração e implantação de aplicações com persistência em banco de dados.",
+    "estagio": "Atividades práticas supervisionadas em ambiente profissional da área de computação. Elaboração de relatório técnico de estágio.",
+    "inteligencia_artificial": "Histórico e fundamentos da inteligência artificial. Agentes inteligentes. Resolução de problemas por busca e busca heurística. Representação do conhecimento. Noções de aprendizado de máquina.",
+    "tcc": "Desenvolvimento de trabalho científico orientado na área de computação. Metodologia científica aplicada. Redação de artigo científico segundo as normas da ABNT. Apresentação pública do trabalho.",
+    "optativa": "Conteúdo variável conforme a disciplina optativa cursada."
+  }
+}

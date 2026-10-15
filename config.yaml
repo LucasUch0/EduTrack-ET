@@ -1,0 +1,143 @@
+# EduTrack-GNN — parâmetros do pipeline (RNF25: nada de literais mágicos no código)
+projeto: EduTrack-GNN
+versao: "1.1.0"
+semente_global: 42
+
+caminhos:
+  ontologia: data/ontology/skills_ontology.json
+  ppc_pdf: data/raw/programa_disciplinas_cco2024_1.pdf
+  grade: data/raw/grade_cco2024_1.json
+  ementas_referencia: data/raw/ementas_referencia.json
+  prerequisitos: data/raw/prerequisitos.json
+  vagas_brutas: data/raw/vagas_talent_manaus.json
+  processados: data/processed
+  artefatos: artifacts
+
+ppc:
+  curriculo: "CCO-2024/1"
+  disciplinas_esperadas: 39      # contagem da grade integral (histórico acadêmico)
+  periodos_esperados: 8
+
+normalizacao:
+  limiar_fuzzy: 0.87             # RF13 / RN02
+  tamanho_minimo_fuzzy: 5        # termos mais curtos só casam na camada exata
+  frequencia_minima_cobertura: 2 # RNF18
+
+coleta:
+  dominio: "https://br.talent.com"
+  localidade: "Manaus, AM"
+  paginas_por_termo: 3
+  intervalo_minimo_s: 1.5        # RF03
+  max_requisicoes: 600           # RNF08 (teto por execução)
+  timeout_s: 20
+  user_agent: "EduTrack-GNN/1.0 (TCC Ciencia da Computacao - FAMETRO Manaus; coleta academica de vagas publicas)"
+  termos_busca:
+    - desenvolvedor
+    - programador
+    - analista de sistemas
+    - analista de ti
+    - tecnologia da informação
+    - software
+    - engenheiro de software
+    - full stack
+    - front end
+    - back end
+    - java
+    - python
+    - .net
+    - mobile
+    - android
+    - web
+    - analista de dados
+    - cientista de dados
+    - engenheiro de dados
+    - dados
+    - business intelligence
+    - power bi
+    - banco de dados
+    - dba
+    - inteligência artificial
+    - machine learning
+    - suporte técnico
+    - suporte ti
+    - help desk
+    - service desk
+    - técnico de informática
+    - infraestrutura
+    - redes
+    - segurança da informação
+    - cloud
+    - devops
+    - qa
+    - testes
+    - automação
+    - automação industrial
+    - sistemas embarcados
+    - firmware
+    - iot
+    - sap
+    - erp
+    - totvs
+    - estágio ti
+    - estágio desenvolvimento
+    - estágio tecnologia
+    - projetos de ti
+    - governança de ti
+    - computação
+    - informática
+    - sistemas
+
+filtro_vagas:
+  cidades_aceitas: ["manaus"]          # RN04
+  min_habilidades_tecnicas: 2          # vaga entra no grafo se exigir >= 2 habilidades técnicas
+  categorias_nao_tecnicas: ["PROFISSIONAL"]
+
+perfis:                                # RF31 — atribuição por título e habilidades
+  desenvolvimento: "Desenvolvimento de Software"
+  dados_ia: "Dados e Inteligência Artificial"
+  infraestrutura: "Infraestrutura, Redes e Suporte"
+  industria: "Automação Industrial e Embarcados"
+  corporativo: "Sistemas Corporativos e Gestão de TI"
+
+grafo:
+  coocorrencia_minima: 2               # aresta skill-skill exige >= 2 vagas em comum
+  dim_texto_svd: 16                    # atributos textuais dos nós (TF-IDF -> SVD)
+  escala_carga_horaria: 88             # divisor do atributo carga horária (maior carga da grade, em horas)
+  escala_habilidades_vaga: 20          # divisor do atributo número de habilidades da vaga
+
+modelo:                              # selecionados pela AUC de validação (scripts/ajuste_hiperparametros.py)
+  camadas: 2
+  dim_oculta: 32
+  dim_saida: 32
+  epocas: 300
+  taxa_aprendizado: 0.01
+  decaimento_peso: 0.0005
+  dropout: 0.2
+  paciencia: 60
+  negativos_por_positivo: 3
+  fracao_supervisao: 0.3               # arestas de supervisão por época (disjoint_train_ratio)
+  peso_auxiliar_exige: 0.5             # tarefa auxiliar vaga-exige-skill
+  texto_compartilhado: true            # projeção única dos atributos textuais (LSA)
+  residual: true
+  decodificador_hibrido: true          # modelo da aplicação: z_d.z_s + beta * cos_tfidf(d, s) + viés
+  beta_inicial: 8.0
+
+avaliacao:
+  k: [1, 3, 5, 10]                     # RF36
+  fracao_validacao: 0.1
+  fracao_teste: 0.2
+  sementes: [42, 7, 13, 21, 99, 123, 256, 314, 512, 777, 1001, 1234, 2024, 2026, 3141, 4096, 5555, 6174, 8128, 9999]
+
+recomendacao:
+  k_padrao: 5                          # RN05
+  k_maximo: 10
+  afinidade_minima_apoio: 0.15         # limiar para exibir disciplina de apoio sugerida pela GNN
+
+api:
+  host: "127.0.0.1"
+  porta: 8000
+
+energia:                               # RF44 / RNF06 — usado quando o CodeCarbon não está instalado
+  pais: "BRA"
+  potencia_cpu_por_nucleo_w: 15.0      # premissa conservadora (TDP de notebook / nº de núcleos)
+  fator_emissao_kgco2_kwh: 0.0385      # fator médio do SIN (MCTI, 2023) — ver docs/DATA_SOURCES.md
